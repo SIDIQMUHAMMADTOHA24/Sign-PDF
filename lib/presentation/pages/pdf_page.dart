@@ -1,12 +1,17 @@
+import 'dart:io';
+import 'dart:typed_data';
+import 'package:path_provider/path_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+import 'package:syncfusion_flutter_pdf/pdf.dart';
+import 'package:share_plus/share_plus.dart';
 
-class PdfPage extends StatefulWidget {
+class EditPdfPage extends StatefulWidget {
   @override
-  _PdfPageState createState() => _PdfPageState();
+  _EditPdfPageState createState() => _EditPdfPageState();
 }
 
-class _PdfPageState extends State<PdfPage> {
+class _EditPdfPageState extends State<EditPdfPage> {
   Offset _signaturePosition = Offset.zero;
   Size _signatureSize = const Size(100, 100);
   bool _isAddingSignature = true;
@@ -36,10 +41,20 @@ class _PdfPageState extends State<PdfPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("PDF with Signature")),
+      appBar: AppBar(
+        title: const Text("PDF with Signature"),
+        actions: [
+          TextButton(onPressed: _savePdfWithSignature, child: Text('Done'))
+        ],
+      ),
       body: Stack(
         children: [
-          SfPdfViewer.asset('assets/pdf/testing.pdf'),
+          SfPdfViewer.asset(
+            'assets/pdf/testing.pdf',
+            onPageChanged: (details) {
+              print('detail, ${details.newPageNumber}');
+            },
+          ),
           if (_isAddingSignature) _buildSignatureWidget(),
         ],
       ),
@@ -59,7 +74,7 @@ class _PdfPageState extends State<PdfPage> {
         padding: const EdgeInsets.all(8.0),
         child: GestureDetector(
           onPanUpdate: (details) =>
-              setState(() => _signaturePosition += details.delta), 
+              setState(() => _signaturePosition += details.delta),
           child: Stack(
             alignment: Alignment.center,
             children: [
@@ -138,12 +153,71 @@ class _PdfPageState extends State<PdfPage> {
         newHeight.clamp(50.0, 400.0),
       );
 
-      if (isTop)
+      if (isTop) {
         _signaturePosition =
             Offset(_signaturePosition.dx, _signaturePosition.dy + delta.dy);
-      if (isLeft)
+      }
+      if (isLeft) {
         _signaturePosition =
             Offset(_signaturePosition.dx + delta.dx, _signaturePosition.dy);
+      }
     });
+  }
+
+  Future<void> _sharePdf(String filePath) async {
+    try {
+      await Share.shareXFiles([XFile(filePath)],
+          text: 'Here is the signed PDF!');
+    } catch (e) {
+      print('Error sharing file: $e');
+    }
+  }
+
+  Future<void> _savePdfWithSignature() async {
+    try {
+      // Load the existing PDF document
+      final ByteData pdfData =
+          await DefaultAssetBundle.of(context).load('assets/pdf/testing.pdf');
+      final PdfDocument document =
+          PdfDocument(inputBytes: pdfData.buffer.asUint8List());
+
+      // Add signature to the first page
+      final PdfPage page = document.pages[3];
+      final PdfGraphics graphics = page.graphics;
+
+      // Load the signature image
+      final ByteData imageData =
+          await DefaultAssetBundle.of(context).load(_ttdPath);
+      final PdfBitmap signatureImage =
+          PdfBitmap(imageData.buffer.asUint8List());
+
+      // Calculate position and size
+      final double x = _signaturePosition.dx;
+      final double y =
+          page.size.height - _signaturePosition.dy - _signatureSize.height;
+      graphics.drawImage(signatureImage,
+          Rect.fromLTWH(x, y, _signatureSize.width, _signatureSize.height));
+
+      // Save the modified PDF to local storage
+      final Directory directory = await getApplicationDocumentsDirectory();
+      final String path = '${directory.path}/signed_document.pdf';
+      final File file = File(path);
+      file.writeAsBytesSync(document.saveSync());
+
+      document.dispose();
+
+      print('path = $path');
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('PDF berhasil disimpan di $path')),
+      );
+
+      // _sharePdf(path);
+    } catch (e) {
+      print('error $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Gagal menyimpan PDF: $e')),
+      );
+    }
   }
 }
