@@ -7,6 +7,8 @@ import 'package:syncfusion_flutter_pdf/pdf.dart';
 import 'package:share_plus/share_plus.dart';
 
 class EditPdfPage extends StatefulWidget {
+  const EditPdfPage({super.key});
+
   @override
   _EditPdfPageState createState() => _EditPdfPageState();
 }

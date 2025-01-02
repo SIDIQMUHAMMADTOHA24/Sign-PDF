@@ -21,43 +21,43 @@ version: 1.0.0+1
 environment:
   sdk: ^3.5.1
 
-# Dependencies specify other packages that your package needs in order to work.
-# To automatically upgrade your package dependencies to the latest versions
-# consider running `flutter pub upgrade --major-versions`. Alternatively,
-# dependencies can be manually updated by changing the version numbers below to
-# the latest version available on pub.dev. To see which dependencies have newer
-# versions available, run `flutter pub outdated`.
 dependencies:
+  camera: ^0.11.0+2
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-
-dev_dependencies:
   bloc: ^8.1.4
   equatable: ^2.0.7
   flutter_bloc: ^8.1.6
-  flutter_lints: ^4.0.0
-  flutter_test:
-    sdk: flutter
+  flutter_cupertino_datetime_picker: ^3.0.0
+  flutter_svg: ^2.0.16
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  keyboard_dismisser: ^3.0.0
+  password_strength_indicator: ^1.0.1
   path_provider: ^2.1.5
   pdf: ^3.11.1
-  permission_handler: ^11.3.1
   share_plus: ^10.1.3
   syncfusion_flutter_pdf: ^28.1.33
   syncfusion_flutter_pdfviewer: ^28.1.33
-  syncfusion_flutter_signaturepad: ^28.1.33
+  google_mlkit_face_detection: ^0.12.0
+  flutter_widget_from_html: ^0.15.3
+  slider_captcha: ^1.0.1
+  loading_animation_widget: ^1.3.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-# The following section is specific to Flutter packages.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/icon/
+    - assets/image/
     - assets/pdf/testing.pdf
     - assets/ttd/ttd.png
   #   - images/a_dot_ham.jpeg
