@@ -1,7 +1,9 @@
 import 'package:enkripa_sign/presentation/pages/data_verification_page.dart';
 import 'package:enkripa_sign/presentation/pages/face_verification_page.dart';
+import 'package:enkripa_sign/presentation/pages/login_page.dart';
 import 'package:enkripa_sign/presentation/pages/on_boarding_page.dart';
 import 'package:enkripa_sign/presentation/pages/splash_page.dart';
+import 'package:enkripa_sign/presentation/pages/user_agreement_page.dart';
 import 'package:enkripa_sign/presentation/pages/widget/on_boarding_widget.dart';
 import 'package:enkripa_sign/theme/theme_extensions.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         locale: const Locale('id', 'ID'),
-        home: const FaceVerificationPage(),
+        home: const UserAgreementPage(),
       ),
     );
   }

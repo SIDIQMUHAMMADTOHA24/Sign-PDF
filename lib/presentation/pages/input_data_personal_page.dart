@@ -98,10 +98,11 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         GestureDetector(
-                          onTap: () {
-                            Nav.pop(context);
-                          },
-                          child: SvgPicture.asset('assets/icon/arrow-left-icon.svg')),
+                            onTap: () {
+                              Nav.pop(context);
+                            },
+                            child: SvgPicture.asset(
+                                'assets/icon/arrow-left-icon.svg')),
                         Image.asset(
                           'assets/image/enkripa-logo.webp',
                           color: Colors.white,
@@ -116,7 +117,8 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                 Expanded(
                   flex: 6,
                   child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 24),
                     decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.vertical(
@@ -163,7 +165,7 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                                       ? Theme.of(context).focusBorderColor
                                       : null,
                               onChanged: (value) {
-                                _fieldBloc!.add(FieldIsNotEmptyEvent(key: KeyConstants.nik,text: value));
+                                _fieldBloc!.add(FieldIsNotEmptyEvent(key: KeyConstants.nik, text: value));
                               },
                             ),
 
@@ -181,7 +183,7 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                                         ? Theme.of(context).focusBorderColor
                                         : null,
                                 onChanged: (value) {
-                                  _fieldBloc!.add(FieldIsNotEmptyEvent(key: KeyConstants.ktp,text: value));
+                                  _fieldBloc!.add(FieldIsNotEmptyEvent(key: KeyConstants.ktp, text: value));
                                 },
                               ),
                             ),
@@ -194,10 +196,12 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                               disable: false,
                               keyboardType: TextInputType.text,
                               suffixIcon: Padding(
-                                padding: const EdgeInsets.symmetric(horizontal: 16),
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 16),
                                 child: SvgPicture.asset(
                                   'assets/icon/note-icon.svg',
-                                  colorFilter: ColorFilter.mode(stateField.isNotEmpty(KeyConstants.tanggalLahir)
+                                  colorFilter: ColorFilter.mode(
+                                    stateField.isNotEmpty(KeyConstants.tanggalLahir)
                                         ? Theme.of(context).focusBorderColor
                                         : Theme.of(context).defaultIconCalenderColor,
                                     BlendMode.srcIn,
@@ -248,15 +252,16 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                                   ),
                                   pickerMode: DateTimePickerMode.date,
                                   onChange: (dateTime, selectedIndex) {
-                                    
                                     setState(() {
-                                      tanggalLahirController.text = DateFormat('d MMMM yyyy', 'id_ID').format(dateTime);
+                                      tanggalLahirController.text =
+                                          DateFormat('d MMMM yyyy', 'id_ID')
+                                              .format(dateTime);
                                     });
 
                                     _fieldBloc!.add(FieldIsNotEmptyEvent(
-                                      key: KeyConstants.tanggalLahir, 
-                                      text: DateFormat('d MMMM yyyy', 'id_ID').format(dateTime)
-                                    ));
+                                        key: KeyConstants.tanggalLahir,
+                                        text: DateFormat('d MMMM yyyy', 'id_ID')
+                                            .format(dateTime)));
                                   },
                                 );
                               },
@@ -266,6 +271,7 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                               padding: const EdgeInsets.symmetric(vertical: 24),
                               child: Divider(
                                 thickness: 1.2,
+                                height: 1,
                                 color: Theme.of(context).dividerColor,
                               ),
                             ),
@@ -273,12 +279,15 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                             //MARK: BTN LANJUTKAN
                             Material(
                               borderRadius: BorderRadius.circular(12),
-                              color: (stateField.isNotEmpty(KeyConstants.nik) && stateField.isNotEmpty(KeyConstants.ktp) && stateField.isNotEmpty(KeyConstants.tanggalLahir))
+                              color: (stateField.isNotEmpty(KeyConstants.nik) &&
+                                      stateField.isNotEmpty(KeyConstants.ktp) &&
+                                      _validateNIK(nikController.text) &&
+                                      stateField.isNotEmpty(KeyConstants.tanggalLahir))
                                   ? Theme.of(context).enableButtonColor
                                   : Theme.of(context).disabledButtonColor,
                               child: InkWell(
                                 onTap: () {
-                                  Nav.push(context, const CreateAccountPage());
+                                  // Nav.push(context, const CreateAccountPage());
                                 },
                                 borderRadius: BorderRadius.circular(12),
                                 splashColor: Colors.white.withOpacity(0.2),
@@ -290,7 +299,10 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
                                       style: GoogleFonts.inter(
                                         fontSize: 14,
                                         fontWeight: FontWeight.w600,
-                                        color: (stateField.isNotEmpty(KeyConstants.nik) && stateField.isNotEmpty(KeyConstants.ktp) && stateField.isNotEmpty(KeyConstants.tanggalLahir))
+                                        color: (stateField.isNotEmpty(KeyConstants.nik) 
+                                        && stateField.isNotEmpty(KeyConstants.ktp) && 
+                                        _validateNIK(nikController.text) && 
+                                        stateField.isNotEmpty(KeyConstants.tanggalLahir))
                                             ? Theme.of(context).enableFontColor
                                             : Theme.of(context).disabledFontColor,
                                       ),
@@ -311,5 +323,22 @@ class _InputDataPersonalPageState extends State<InputDataPersonalPage> {
         ),
       ),
     );
+  }
+
+  bool _validateNIK(String nik) {
+    if (nik.length != 16 || !RegExp(r'^\d{16}$').hasMatch(nik)) {
+      return false; // Harus 16 digit angka
+    }
+
+    final String birthInfo = nik.substring(6, 12);
+    final int day = int.parse(birthInfo.substring(0, 2));
+    final int month = int.parse(birthInfo.substring(2, 4));
+    final int year = int.parse(
+        birthInfo.substring(4, 6)); // Perlu tambahan logika untuk tahun penuh
+
+    if (day < 1 || day > 71) return false; // Rentang hari tidak valid
+    if (month < 1 || month > 12) return false; // Rentang bulan tidak valid
+
+    return true; // NIK memenuhi format dasar
   }
 }

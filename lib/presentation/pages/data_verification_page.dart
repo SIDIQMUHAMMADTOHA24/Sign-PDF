@@ -1,3 +1,4 @@
+import 'package:enkripa_sign/presentation/pages/widget/navigation_widget.dart';
 import 'package:enkripa_sign/theme/theme_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -48,7 +49,11 @@ class _DataVerificationPageState extends State<DataVerificationPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        SvgPicture.asset('assets/icon/arrow-left-icon.svg'),
+                        GestureDetector(
+                          onTap: () {
+                            Nav.pop(context);
+                          },
+                          child: SvgPicture.asset('assets/icon/arrow-left-icon.svg')),
                         Image.asset(
                           'assets/image/enkripa-logo.webp',
                           color: Colors.white,
@@ -72,6 +77,7 @@ class _DataVerificationPageState extends State<DataVerificationPage> {
                         ),
                       ),
                       child: ListView(
+                        padding: const EdgeInsets.all(0),
                         children: [
                           Container(
                             padding: const EdgeInsets.all(16),
@@ -96,6 +102,7 @@ class _DataVerificationPageState extends State<DataVerificationPage> {
                                       const EdgeInsets.symmetric(vertical: 20),
                                   child: Divider(
                                     thickness: 1.2,
+                                    height: 1,
                                     color: Theme.of(context).dividerColor,
                                   ),
                                 ),
@@ -123,6 +130,7 @@ class _DataVerificationPageState extends State<DataVerificationPage> {
                                       const EdgeInsets.symmetric(vertical: 20),
                                   child: Divider(
                                     thickness: 1.2,
+                                    height: 1,
                                     color: Theme.of(context).dividerColor,
                                   ),
                                 ),
@@ -142,26 +150,20 @@ class _DataVerificationPageState extends State<DataVerificationPage> {
                                       const EdgeInsets.symmetric(vertical: 20),
                                   child: Divider(
                                     thickness: 1.2,
+                                    height: 1,
                                     color: Theme.of(context).dividerColor,
                                   ),
                                 ),
 
-                                Text('Input Captcha',
-                                    style: GoogleFonts.inter(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w600,
-                                      color: Theme.of(context).titleMediumColor,
-                                    )),
-
-                                SliderCaptcha(
-                                  image: Image.asset(
-                                    'assets/image/enkripa-logo.webp',
-                                    fit: BoxFit.fitWidth,
-                                  ),
-                                  colorBar: Colors.blue,
-                                  colorCaptChar: Colors.blue,
-                                  onConfirm: (value) async {},
-                                ),
+                                // SliderCaptcha(
+                                //   image: Image.asset(
+                                //     'assets/image/enkripa-logo.webp',
+                                //     fit: BoxFit.fitWidth,
+                                //   ),
+                                //   colorBar: Colors.blue,
+                                //   colorCaptChar: Colors.blue,
+                                //   onConfirm: (value) async {},
+                                // ),
                               ],
                             ),
                           )

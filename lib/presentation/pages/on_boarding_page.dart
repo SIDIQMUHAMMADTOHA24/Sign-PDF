@@ -350,7 +350,7 @@ Future<dynamic> showUserAgreementWidget(BuildContext context) {
                                 style: GoogleFonts.inter(
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.black,
+                                  color: Theme.of(context).enableButtonColor,
                                 ),
                               ),
                             ),

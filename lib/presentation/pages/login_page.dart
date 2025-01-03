@@ -209,6 +209,7 @@ class _LoginPageState extends State<LoginPage> {
                               padding: const EdgeInsets.only(bottom: 24, top: 8),
                               child: Divider(
                                 thickness: 1.2,
+                                height: 1,
                                 color: Theme.of(context).dividerColor,
                               ),
                             ),

@@ -173,55 +173,6 @@ class _FaceVerificationPageState extends State<FaceVerificationPage> {
   @override
   @override
   Widget build(BuildContext context) {
-    // return Scaffold(
-    //   appBar: AppBar(title: const Text('Verifikasi Wajah')),
-    //   body: FutureBuilder<void>(
-    //     future: _initializeControllerFuture,
-    //     builder: (context, snapshot) {
-    //       if (snapshot.connectionState == ConnectionState.done &&
-    //           _controller.value.isInitialized) {
-    //         return Column(
-    //           children: [
-    //             Expanded(
-    //               child: Stack(
-    //                 children: [
-    //                   // Camera preview
-    //                   // CameraPreview(_controller),
-    //                   Container(color: Colors.white,),
-    //                   CustomPaint(
-    //                     painter: HoleOverlayWidget(
-    //                       center: Offset(
-    //                         MediaQuery.of(context).size.width / 2,
-    //                         MediaQuery.of(context).size.height / 3,
-    //                       ),
-    //                       height: 310,
-    //                       width: 248,
-    //                     ),
-    //                      child: Container(),
-    //                   ),
-    //                 ],
-    //               ),
-    //             ),
-    //             Padding(
-    //               padding: const EdgeInsets.all(16.0),
-    //               child: Text(
-    //                 _verificationResult,
-    //                 style: const TextStyle(fontSize: 20),
-    //                 textAlign: TextAlign.center,
-    //               ),
-    //             ),
-    //           ],
-    //         );
-    //       } else if (snapshot.hasError) {
-    //         return Center(child: Text("Kesalahan: ${snapshot.error}"));
-    //       } else {
-    //         return const Center(child: CircularProgressIndicator());
-    //       }
-    //     },
-    //   ),
-    // );
-
-
     return KeyboardDismisser(
       child: Scaffold(
         resizeToAvoidBottomInset: false,
@@ -309,53 +260,42 @@ class _FaceVerificationPageState extends State<FaceVerificationPage> {
                         const SizedBox(height: 36),
                         ClipRRect(
                           borderRadius: BorderRadius.circular(12),
-                          child: Stack(
-                            children: [
-                              SizedOverflowBox(
-                                size: const Size(double.infinity, 300), // aspect is 1:1
-                                alignment: Alignment.center,
-                                child: FutureBuilder(
-                                    future: _initializeControllerFuture,
-                                    builder: (context, snapshot) {
-                                      if (snapshot.connectionState ==
-                                              ConnectionState.done &&
-                                          _controller.value.isInitialized) {
-                                        // return ClipRRect(
-                                        //   child: Stack(
-                                        //     alignment: Alignment.center,
-                                        //     children: [
-                                        //       CameraPreview(_controller),
-                                        //       CustomPaint(
-                                        //         painter: HoleOverlayWidget(
-                                        //           center: Offset(
-                                        //             MediaQuery.of(context).size.width / 2.22,
-                                        //             MediaQuery.of(context).size.height / 5,
-                                        //           ),
-                                        //           height: 210,
-                                        //           width: 170,
-                                        //         ),
-                                        //         child: Container(),
-                                        //       ),
-                                        //     ],
-                                        //   ),
-                                        // );
-                                        return CameraPreview(_controller);
-                                      } else {
-                                        return const Center(child: CircularProgressIndicator());
-                                      }
-                                    }),
-                              ),
-                                     CustomPaint(
-                                            painter: HoleOverlayWidget(
-                                              center: Offset(
-                                                MediaQuery.of(context).size.width / 2.22,
-                                                MediaQuery.of(context).size.height / 5,
+                          child: SizedOverflowBox(
+                            size: const Size(double.infinity, 300), // aspect is 1:1
+                            alignment: Alignment.center,
+                            child: FutureBuilder(
+                                future: _initializeControllerFuture,
+                                builder: (context, snapshot) {
+                                  if (snapshot.connectionState ==
+                                          ConnectionState.done &&
+                                      _controller.value.isInitialized) {
+                                    return ClipRRect(
+                                      child: Stack(
+                                        alignment: Alignment.center,
+                                        children: [
+                                          CameraPreview(_controller),
+                                          SizedBox(
+                                            height: 400,
+                                            child: CustomPaint(
+                                              painter: HoleOverlayWidget(
+                                                center: Offset(
+                                                  MediaQuery.of(context).size.width / 2.22,
+                                                  MediaQuery.of(context).size.height / 5,
+                                                ),
+                                                height: 210,
+                                                width: 170,
                                               ),
-                                              height: 210,
-                                              width: 170,
+                                              child: Container(),
                                             ),
                                           ),
-                            ],
+                                        ],
+                                      ),
+                                    );
+                                    // return CameraPreview(_controller);
+                                  } else {
+                                    return const Center(child: CircularProgressIndicator());
+                                  }
+                                }),
                           ),
                         ),
 

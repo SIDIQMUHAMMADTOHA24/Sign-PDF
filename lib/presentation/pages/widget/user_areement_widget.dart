@@ -1,571 +1,1489 @@
 String contentUserAgreement = '''
-			<p style="margin-top:29.95pt; margin-left:0.85pt; text-indent:0.3pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">Selamat datang di Akun, Layanan atau Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">Terima kasih atas kepercayaan Anda untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menggunakan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">Perjanjian ini mengatur akses dan penggunaan Anda atas Akun, Layanan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dan Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">(secara kolektif disebut sebagai “</span><strong><span style="font-family:Calibri; ">Situs</span></strong><span style="font-family:Calibri">”) oleh para pengunjung (“</span><strong><span style="font-family:Calibri; ">Pengunjung</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">Situs</span></strong><span style="font-family:Calibri">”) dan oleh para individu atau entitas yang telah berlangganan layanan Kami (“</span><strong><span style="font-family:Calibri; ">Layanan</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">”) atau membuat akun (“</span><strong><span style="font-family:Calibri; ">Akun</span></strong><span style="font-family:Calibri">”) dan Pemilik Yang Berwenang (secara kolektif disebut</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sebagai “</span><strong><span style="font-family:Calibri; ">Pemilik</span></strong><span style="font-family:Calibri">”). Dengan menggunakan Situs atau setiap Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">, Anda sebagai</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pengunjung Situs atau Pemilik dengan ini menerima dan menyetujui Perjanjian ini (baik atas nama</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pribadi atau entitas hukum yang Anda wakili). Layanan kami dioperasikan oleh PT Enkripa</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Teknologi Indonesia, perseroan terbatas yang didirikan secara sah berdasarkan hukum Republik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Indonesia dan berkedudukan di Jakarta Selatan, Indonesia. </span>
-			</p>
-			<p style="margin-top:23.7pt; margin-left:1.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<strong><span style="font-family:Calibri; ">DENGAN MENGAKSES ATAU MENGGUNAKAN BAIK AKUN ATAU LAYANAN ENKRIPA , ANDA</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">MEMAHAMI, MENYETUJUI UNTUK MENGIKUTI DAN TERIKAT DENGAN SELURUH SYARAT DAN</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">KETENTUAN DALAM PERJANJIAN INI BESERTA CPS ENKRIPA DAN BERTANGGUNG JAWAB</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">KEPADA KAMI APABILA ANDA MELANGGAR PERJANJIAN INI. APABILA ANDA TIDAK</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">MENYETUJUI SYARAT DAN KETENTUAN TERSEBUT, ANDA TIDAK DIPERBOLEHKAN DAN HARUS</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">BERHENTI MENGGUNAKAN LAYANAN INI SEGERA. </span></strong>
-			</p>
-			<p style="margin-top:23.65pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<strong><span style="font-family:Calibri; ">Definisi dan Penafsiran </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<strong><span style="font-family:Calibri; ">Definisi </span></strong>
-			</p>
-			<p style="margin-top:2.8pt; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">Dalam Perjanjian ini, kecuali konteks menentukan lainnya atau kecuali ketentuan ketentuan dalam Perjanjian ini secara tegas menyatakan sebaliknya, kata-kata dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pernyataan yang diawali huruf kapital memiliki makna sebagai berikut: </span>
-			</p>
-			<ol style="margin:0pt; padding-left:0pt; list-style-type:lower-latin">
-				<li class="ListParagraph" style="margin-top:1.65pt; margin-right:0.3pt; margin-left:12.31pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.69pt; font-family:Calibri; font-size:10pt">
-					<strong>“Akun” </strong>adalah sebuah kode alfanumerik unik yang dibuat oleh Pemilik, yang dapat&#xa0; dihubungkan dengan nama pengguna (username) tertentu. Akun ini digunakan untuk&#xa0; mengidentifikasi Pemilik ketika mengakses dan menggunakan Layanan Enkripa.
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.78pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.22pt; font-family:Calibri; font-size:10pt">
-					<strong>“Dokumen Elektronik” </strong>mencakup segala bentuk informasi elektronik, baik dalam&#xa0; format analog, digital, elektromagnetik, optikal, atau format lainnya. Ini meliputi&#xa0; tulisan, suara, gambar, peta, rancangan, foto, serta huruf, tanda, angka, kode akses,&#xa0; simbol, atau perforasi yang dapat dilihat, ditampilkan, dan/atau didengar melalui&#xa0; komputer atau sistem elektronik. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:11.75pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:6.25pt; font-family:Calibri; font-size:10pt">
-					<strong>“Informasi Elektronik” </strong>adalah data atau kumpulan data dalam format elektronik. Ini&#xa0; termasuk tulisan, suara, gambar, peta, rancangan, foto, serta berbagai bentuk&#xa0; komunikasi elektronik seperti email, telegram, dan dokumen digital lainnya yang&#xa0; diolah sehingga memiliki arti atau dapat dipahami. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.78pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.22pt; font-family:Calibri; font-size:10pt">
-					<strong>“Perjanjian” </strong>merujuk pada syarat dan ketentuan yang berlaku dan mengikat Pemilik&#xa0; dan Pemilik Yang Berwenang sehubungan dengan penggunaan Akun, Layanan,&#xa0; dan/atau Situs Enkripa. Ini mencakup semua aturan dan ketentuan yang harus&#xa0; dipatuhi oleh Pemilik dan Pemilik Yang Berwenang dalam interaksi mereka dengan&#xa0; Enkripa. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.5pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.5pt; font-family:Calibri; font-size:10pt">
-					<strong>“Layanan atau Layanan Enkripa” </strong>mencakup semua layanan yang disediakan oleh&#xa0; Enkripa, termasuk namun tidak terbatas pada penerbitan Sertifikat Elektronik,&#xa0; pembuatan Tanda Tangan Elektronik, dan layanan lain yang dinyatakan oleh Enkripa&#xa0; dari waktu ke waktu. Ini juga mencakup layanan yang mungkin telah disepakati dalam&#xa0; perjanjian terpisah jika Pemilik adalah entitas hukum seperti persekutuan, firma, atau&#xa0; organisasi. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:10.58pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:7.42pt; font-family:Calibri; font-size:10pt">
-					<strong>“Pemilik” </strong>adalah individu, persekutuan, firma, entitas, perusahaan, badan hukum,&#xa0; lembaga, atau organisasi yang menggunakan Layanan Enkripa. Istilah ini mencakup&#xa0; semua pihak yang memiliki Akun dan menggunakan layanan yang disediakan oleh&#xa0; Enkripa. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.23pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.77pt; font-family:Calibri; font-size:10pt">
-					<strong>“Pemilik Yang Berwenang” </strong>adalah individu yang secara sah diberi wewenang oleh&#xa0; Pemilik untuk menggunakan Layanan Enkripa. Ini bisa mencakup karyawan, rekan&#xa0; kerja, kontraktor, atau agen yang terdaftar dan diizinkan oleh Pemilik untuk mewakili&#xa0; mereka dalam penggunaan layanan. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.78pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.22pt; font-family:Calibri; font-size:10pt">
-					<strong>“Enkripa” </strong>juga dikenal sebagai PT Enkripa Teknologi Indonesia, adalah entitas yang&#xa0; menyediakan layanan yang diatur dalam Perjanjian ini. Semua referensi "Kami" atau&#xa0; "Kita" merujuk pada Enkripa.
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:9.82pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:8.18pt; font-family:Calibri; font-size:10pt">
-					“<strong>Penyelenggara Sertifikasi Elektronik (PSrE)” </strong>adalah entitas yang bertanggung jawab&#xa0; untuk menerbitkan dan mencabut Sertifikat Elektronik. Dalam konteks ini, PSrE&#xa0; merujuk pada Enkripa. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:9.92pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:8.08pt; font-family:Calibri; font-size:10pt">
-					“<strong>Sertifikat Elektronik” </strong>adalah dokumen elektronik yang diterbitkan oleh Enkripa dan&#xa0; berisi Tanda Tangan Elektronik serta identitas yang menunjukkan subjek hukum atau&#xa0; pihak-pihak dalam Transaksi Elektronik. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.07pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.93pt; font-family:Calibri; font-size:10pt">
-					“<strong>Situs” </strong>merujuk pada situs web resmi Enkripa, yaitu <u><span style="color:#1155cc">https://www.enkripa.id/ </span></u>atau situs&#xa0; lain yang ditentukan oleh Enkripa dari waktu ke waktu. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:9.82pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:8.18pt; font-family:Calibri; font-size:10pt">
-					<strong>“Tanda Tangan Elektronik” </strong>adalah tanda tangan yang terdiri dari Informasi Elektronik&#xa0; yang dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik lainnya. Ini&#xa0; digunakan sebagai alat verifikasi dan otentikasi yang dibuat melalui Layanan Enkripa. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:15.51pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:2.49pt; font-family:Calibri; font-size:10pt">
-					<strong>“Transaksi Elektronik” </strong>adalah perbuatan hukum yang dilakukan menggunakan&#xa0; komputer, jaringan komputer, atau media elektronik lainnya. 
-				</li>
-				<li class="ListParagraph" style="margin-right:0.3pt; margin-left:12.78pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.22pt; font-family:Calibri; font-size:10pt">
-					<strong>“CPS (</strong><strong><em>Certification Practice Statement</em></strong><strong>)” </strong>adalah kebijakan dan prosedur yang mengatur&#xa0; penerbitan sertifikat dan pengelolaan infrastruktur Penyelenggara Sertifikasi&#xa0; Elektronik. Kebijakan ini diterbitkan dan dipublikasikan oleh PT Enkripa Teknologi&#xa0; Indonesia melalui <u><span style="color:#1155cc">https://repository.enkripa.id/</span></u><span style="color:#1155cc"> </span>
-				</li>
-			</ol>
-			<p style="margin-top:23.7pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<strong><span style="font-family:Calibri; ">Penafsiran </span></strong>
-			</p>
-			<p style="margin-top:7.95pt; margin-right:0.15pt; margin-left:17.9pt; text-indent:-17.9pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">a. </span><strong><span style="font-family:Calibri; ">"Perjanjian" </span></strong><span style="font-family:Calibri">ini mengacu pada perjanjian itu sendiri, termasuk perubahan, tambahan,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perpanjangan, atau revisi yang mungkin dilakukan dari waktu ke waktu. Ini mencakup</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">semua bentuk modifikasi yang disetujui oleh pihak-pihak terkait. </span>
-			</p>
-			<p style="margin-top:1.45pt; margin-right:0.1pt; margin-left:17.85pt; text-indent:-17.5pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">b. </span><strong><span style="font-family:Calibri; ">"Pengguna", "Pengguna Yang Berwenang", "Pengunjung Situs", "anda", "milik</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">anda", "kamu" </span></strong><span style="font-family:Calibri">Istilah-istilah ini mencakup semua individu atau entitas yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menggunakan layanan atau mengunjungi situs, serta penerus hak dan pengguna yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diizinkan. </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:18.35pt; text-indent:-18.35pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">c. </span><strong><span style="font-family:Calibri; ">"Enkripa", "PT Enkripa Teknologi Indonesia", "kami" dan "milik kami", </span></strong><span style="font-family:Calibri">Merujuk pada</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perusahaan atau entitas yang menyediakan layanan, yaitu PT Enkripa Teknologi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Indonesia, dan dapat digunakan secara bergantian dengan istilah "kami".</span>
-			</p>
-			<p style="margin-right:0.2pt; margin-left:17.95pt; text-indent:-17.95pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">d. </span><strong><span style="font-family:Calibri; ">"Orang" </span></strong><span style="font-family:Calibri">termasuk individu, firma, perusahaan, korporasi, lembaga pemerintah,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">asosiasi, atau kemitraan. Ini bisa juga mencakup entitas yang memiliki kepribadian</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">hukum terpisah. </span>
-			</p>
-			<p style="margin-top:1.75pt; margin-right:0.25pt; margin-left:17.6pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">e. </span><strong><span style="font-family:Calibri; ">"Peraturan" </span></strong><span style="font-family:Calibri">ini mencakup peraturan, aturan, kebijakan, atau pedoman dari badan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pemerintah, lembaga, atau organisasi lain, baik yang memiliki kekuatan hukum atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tidak. Jika tidak memiliki kekuatan hukum, peraturan tersebut masih relevan jika</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dianggap sebagai standar umum yang harus dipatuhi. </span>
-			</p>
-			<p style="margin-top:1.75pt; margin-right:0.25pt; margin-left:17.6pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:10pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="margin-top:1.75pt; margin-right:0.25pt; margin-left:17.6pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<strong><span style="font-family:Calibri; ">Pembaruan dan Pemberitahuan </span></strong>
-			</p>
-			<ol style="margin:0pt; padding-left:0pt; list-style-type:lower-latin">
-				<li class="ListParagraph" style="margin-top:9.45pt; margin-left:12.31pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.69pt; font-family:Calibri; font-size:10pt">
-					Kami berhak, dari waktu ke waktu, merevisi, memperbarui dan/atau menyunting&#xa0; Perjanjian atau setiap syarat dan ketentuan lainnya yang berhubungan dengan setiap&#xa0; Layanan <strong>ENKRIPA </strong>atas kebijaksanaan mutlak Kami, untuk dapat mencerminkan&#xa0; perubahan-perubahan hukum yang berlaku atau Layanan <strong>ENKRIPA </strong><em>, </em>Kami akan&#xa0; memberitahukan kepada Anda terkait perubahan-perubahan tersebut dan atau Anda&#xa0; dapat melakukan pemeriksaan Situs secara rutin untuk dapat melihat setiap perubahan&#xa0; terbaru dari Perjanjian. Jika Anda tetap menggunakan Layanan <strong>ENKRIPA </strong>setelah&#xa0; perubahan Perjanjian telah berlaku efektif maka Anda dianggap telah menyetujui untuk&#xa0; terikat dengan perubahan terbaru dari Perjanjian. Anda menyetujui bahwa Kami tidak&#xa0; bertanggung jawab kepada Anda atau setiap pihak ketiga atas setiap perubahan atas&#xa0; Perjanjian; 
-				</li>
-				<li class="ListParagraph" style="margin-left:12.78pt; text-align:justify; line-height:normal; widows:0; orphans:0; padding-left:5.22pt; font-family:Calibri; font-size:10pt">
-					Anda menyetujui untuk menerima setiap komunikasi, perjanjian dan pemberitahuan&#xa0; yang Kami sampaikan sehubungan dengan Layanan <strong>ENKRIPA </strong>(“<strong>Pemberitahuan</strong>”),&#xa0; termasuk namun tidak terbatas pada Pemberitahuan sehubungan dengan pelaksanaan&#xa0; Layanan <strong>ENKRIPA </strong>dan pembelian Anda atas Layanan <strong>ENKRIPA</strong>, dan perubahan atas&#xa0; Perjanjian secara elektronik, termasuk surat elektronik (<em>email</em>), pesan singkat (<em>sms</em>) dan&#xa0; notifikasi melalui Situs. Anda menyetujui bahwa setiap Pemberitahuan tersebut telah&#xa0; kami sampaikan secara tertulis dan telah memenuhi setiap ketentuan hukum terkait&#xa0; penyampaian Pemberitahuan dan Anda menyetujui bahwa informasi terkait kontak&#xa0; Anda yang Anda sediakan pada Akun Anda adalah yang terbaru dan masih berlaku.
-				</li>
-			</ol>
-			<p style="margin-top:1.7pt; margin-left:51.55pt; text-indent:-21.85pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="margin-left:1.35pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Pemakaian Akun ENKRIPA dan Hak Akses Layanan </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:52.8pt; text-indent:-18.3pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">a. </span><span style="font-family:Calibri">Hanya Pemilik yang memiliki Akun </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">yang dapat menggunakan Layanan</span><span style="font-family:Calibri">&#xa0; </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">; </span>
-			</p>
-			<p style="margin-top:1.45pt; margin-left:34.45pt; text-indent:0.3pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">b. </span><span style="font-family:Calibri">Anda tidak dapat mengalihkan Akun </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">Anda kepada pihak manapun; </span><span style="font-family:Calibri; font-size:11pt">c. </span><span style="font-family:Calibri">Untuk menggunakan baik Akun dan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">, Anda bersedia untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memberikan beberapa informasi dan data pribadi Anda kepada </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">secara benar,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">jelas, akurat, dan lengkap kepada </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">, antara lain data pribadi yang tercantum</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dalam Kartu Tanda Penduduk (KTP) atau kartu identitas lainnya, nomor telepon seluler,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">alamat surat elektronik, dan data biometrik dan </span><em><span style="font-family:Calibri; ">IP Address login information</span></em><span style="font-family:Calibri">; </span><span style="font-family:Calibri; font-size:11pt">d. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak melakukan verifikasi terhadap perubahan, penambahan, atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pembaruan informasi dan data pribadi tersebut sesuai prosedur </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">; </span><span style="font-family:Calibri; font-size:11pt">e. </span><span style="font-family:Calibri">Apabila Anda memberikan pernyataan dan jaminan, informasi atau data pribadi yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Kami anggap tidak benar, akurat atau lengkap, maka </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak menolak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">permohonan pembuatan Akun </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dan menangguhkan atau memberhentikan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sebagian atau seluruh Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">yang diberikan kepada Anda; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.75pt; text-indent:-18.55pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">f. </span><span style="font-family:Calibri">Anda berhak untuk menggunakan Akun </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">untuk mengakses atau menggunakan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">layanan yang disediakan oleh pihak ketiga. Dengan menggunakan Akun </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">Anda</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">untuk tujuan tersebut, Anda setuju bahwa pihak ketiga tersebut dapat menerima dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menggunakan data pribadi Anda. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">tidak akan memberikan data pribadi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik kepada pihak ketiga tanpa persetujuan dari Pemilik. Penggunaan data pribadi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik oleh pihak ketiga tersebut tunduk kepada syarat dan ketentuan dan/atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">kebijakan privasi masing-masing pihak ketiga, dan bukan diatur berdasarkan Perjanjian</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">ini; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.15pt; text-indent:-17.9pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">g. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dapat menggunakan atau mengungkapkan data pribadi Pemilik dalam rangka</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memenuhi ketentuan hukum dan peraturan perundang-undangan, yaitu dalam proses</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">penegakan hukum atau pengambilan tindakan pencegahan lebih lanjut sehubungan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan dugaan tindak pidana atau pelanggaran hukum atau peraturan perundang undangan. Sehubungan dengan penggunaan atau pengungkapan tersebut, Anda</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melepaskan dan membebaskan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dari segala klaim, tuntutan, ganti kerugian</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang mungkin timbul sehubungan dengan penggunaan atau pengungkapan tersebut;</span>
-			</p>
-			<p style="margin-left:52.15pt; text-indent:-17.35pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">h. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak untuk sewaktu-waktu mengubah atau memutus akses kepada</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sebagian atau seluruh Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">untuk sementara waktu dalam hal diperlukan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perbaikan dan/atau pengelolaan lebih lanjut dalam rangka meningkatkan pelayanan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">kepada Pemilik atau dalam hal adanya dugaan kebocoran atau pelanggaran keamanan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tanpa pemberitahuan terlebih dahulu kepada Pemilik; </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-right:0.2pt; margin-left:52.15pt; text-indent:-17.45pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">i. </span><span style="font-family:Calibri">Anda memahami bahwa seluruh komunikasi dan instruksi dari Anda yang diterima oleh</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Kami akan diperlakukan sebagai bukti meskipun tidak dibuat dalam bentuk dokumen</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tertulis yang menggunakan tanda tangan basah, dan Anda setuju untuk membebaskan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Kami dari segala klaim, tuntutan, dan ganti rugi yang mungkin timbul sehubungan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan pelaksanaan instruksi dari Anda; </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-right:0.2pt; margin-left:52.4pt; text-indent:-18.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri; font-size:11pt">j. </span><span style="font-family:Calibri">Jika </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">sebelumnya telah melarang anda untuk mengakses atau menggunakan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Situs atau Layanan Enkripa lainnya maka Anda tidak diperbolehkan untuk mengakses</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Situs atau menggunakan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><em><span style="font-family:Calibri; ">. </span></em>
-			</p>
-			<p style="margin-top:23.65pt; margin-left:1.05pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Sertifikat Elektronik </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:32.55pt; text-indent:0.2pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Sertifikat Elektronik yang diterbitkan oleh </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">akan berlaku selama periode satu (1)</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tahun. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak untuk mengirimkan pemberitahuan kepada Pemilik untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memperbarui Sertifikat Elektronik miliknya sebelum atau setelah berakhirnya masa berlaku</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Sertifikat Elektronik tersebut. </span>
-			</p>
-			<p style="margin-top:23.7pt; margin-right:0.1pt; margin-left:32.55pt; text-indent:0.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dengan ini menjamin dan menyatakan bahwa, menurut pengetahuan kami</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mengenai informasi yang terkandung di dalam Sertifikat Elektronik yang telah kami</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terbitkan adalah valid dan benar. Pihak yang menyetujui permohonan penerbitan Sertifikat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Elektronik dan menerbitkan Sertifikat Elektronik telah memenuhi persyaratan yang diatur</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dalam CPS </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">saat menerbitkan Sertifikat Elektronik. </span>
-			</p>
-			<p style="margin-top:1.45pt; margin-left:32.95pt; text-indent:0.4pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Private Key Pemilik telah disimpan pada perangkat yang memenuhi standar keamanan FIPS</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">140-2 Level 2, sementara proses pembangkitan kunci dilakukan menggunakan perangkat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan standar FIPS 140-2 Level 3.</span>
-			</p>
-			<p style="margin-top:1.45pt; margin-left:32.95pt; text-indent:0.4pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="margin-left:1.45pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Privasi </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:32.9pt; text-indent:0.45pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Dengan menggunakan Layanan Enkripa, Anda memberikan izin kepada Enkripa untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mempublikasikan informasi yang tertera dalam Sertifikat Elektronik Anda. Publikasi ini</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mencakup data yang terdapat dalam Sertifikat Elektronik, seperti nama pemilik, informasi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">organisasi, dan tanggal penerbitan sertifikat. </span>
-			</p>
-			<p style="margin-top:21.7pt; margin-left:1.35pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Hak Kepemilikan </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:50.55pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Hak Kepemilikan menyatakan bahwa semua teknologi, data, desain, format, dan konten</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terkait dengan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">adalah milik eksklusif </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dan dilindungi sebagai</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">kekayaan intelektual. Pengguna dilarang menggunakan hak kekayaan intelektual</span><span style="font-family:Calibri">&#xa0; </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">tanpa persetujuan tertulis terlebih dahulu. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mengambil tindakan hukum terhadap pelanggaran hak kekayaan intelektual dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">meminta ganti rugi atas kerugian yang timbul. Pengguna harus mematuhi ketentuan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">hak kekayaan intelektual dan kebijakan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">. Pemberitahuan dan klarifikasi akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diberikan melalui kebijakan privasi dan saluran komunikasi resmi </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">. </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:0.25pt; margin-left:50.15pt; text-indent:-16.85pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Hak kepemilikan mencakup semua teknologi dan data yang terkait dengan perangkat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">lunak dan Situs Enkripa, serta segala desain, format, dan pemrosesan yang digunakan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dalam Layanan Enkripa. Ini termasuk, tetapi tidak terbatas pada, database, program,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">protokol, tampilan, manual, dan elemen lain yang berkaitan dengan Layanan dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">jaringan Enkripa. Semua komponen ini merupakan hak milik eksklusif Enkripa dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dilindungi sebagai kekayaan intelektual. </span>
-			</p>
-			<p style="margin-top:1.45pt; margin-right:0.2pt; margin-left:50.95pt; text-indent:-18pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Larangan Penggunaan Tanpa Persetujuan berarti anda setuju untuk tidak menggunakan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">hak kekayaan intelektual Enkripa tanpa mendapatkan persetujuan tertulis terlebih</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dahulu dari Enkripa. Penggunaan yang tidak sah atau tanpa izin dapat dianggap sebagai</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pelanggaran terhadap hak milik Enkripa. </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:0.2pt; margin-left:50.55pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Pengakuan berarti anda mengakui bahwa setiap upaya untuk menggunakan,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mendistribusikan, atau mengubah hak kekayaan intelektual Enkripa tanpa izin yang sah</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">akan dianggap sebagai pelanggaran nyata terhadap ketentuan hak kekayaan intelektual</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang berlaku. </span>
-			</p>
-			<p style="margin-top:1.45pt; margin-right:0.2pt; margin-left:51.25pt; text-indent:-18.35pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">e. Enkripa berhak untuk mengambil tindakan hukum terhadap individu atau entitas yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melanggar hak kekayaan intelektualnya, termasuk namun tidak terbatas pada tindakan </span>
-			</p>
-			<p style="margin-right:0.3pt; margin-left:50.95pt; text-indent:0.3pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">hukum untuk mengatasi pelanggaran hak cipta, paten, merek dagang, dan rahasia</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dagang. </span>
-			</p>
-			<p style="margin-top:21.85pt; margin-left:1.35pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Larangan atas Penggunaan Situs </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:37.05pt; text-indent:0.1pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Dengan menggunakan Situs dan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">, Anda menyetujui untuk tidak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melakukan aktivitas atau menyampaikan informasi yang, menurut kebijakan mutlak kami: </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:61.35pt; margin-left:39.8pt; text-indent:0.45pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Melanggar hak pihak ketiga manapun, termasuk namun tidak terbatas pada, hak atas</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">privasi, hak cipta, hak merek, hak paten atau hak milik lainnya;</span><br /><span style="font-family:Calibri">b. Melanggar setiap dan seluruh hukum yang berlaku di Republik Indonesia; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:61.35pt; margin-left:39.8pt; text-indent:0.45pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c</span><em><span style="font-family:Calibri; ">. </span></em><span style="font-family:Calibri">Mengganggu penggunaan pihak lainnya atas Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><em><span style="font-family:Calibri; ">; </span></em>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:39.95pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Mencoba menduplikasi atau meniru identitas orang lain; </span><br /><span style="font-family:Calibri">e. Mengakses atau menggunakan Akun Pemilik lainnya tanpa izin; </span><br /><span style="font-family:Calibri">f. Mengganggu operasional Situs dengan cara, termasuk namun tidak terbatas pada,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melumpuhkan, merusak, mencuri data, mengubah, menonaktifkan atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menghancurkan fungsionalitas atau kegunaan dari setiap fitur pada Situs, atau server</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau jaringan yang terhubung dengan Situs atau setiap Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">lainnya; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:39.95pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">g. Mencoba untuk melakukan apapun dari setiap larangan di atas ini. </span>
-			</p>
-			<p style="margin-top:27.95pt; margin-left:1.2pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Pernyataan dan Jaminan </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-right:0.2pt; margin-left:52.5pt; text-indent:-17.95pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Anda menyatakan dan menjamin bahwa anda saat ini berusia 18 (delapan belas) tahun</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau lebih dan cakap dalam bertindak menurut hukum yang berlaku di Republik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Indonesia untuk menyetujui dan melaksanakan seluruh Perjanjian ini; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.45pt; text-indent:-17.55pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Pemilik menyatakan bahwa pengumpulan dan penggunaan atas setiap informasi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pribadi atau data yang disampaikan selama penggunaan Situs telah dilakukan dengan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">cara yang sesuai dengan hukum yang berlaku dan memastikan kebenaran dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">keutuhan semua data yang terkait dengan Sertifikat Elektronik tersebut. Pemilik dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik Yang Berwenang mengakui bahwa </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dapat memproses data tersebut</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sesuai dengan Kebijakan Privasi </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><em><span style="font-family:Calibri; ">;</span></em><em><span style="font-family:Calibri; ">&#xa0; </span></em>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:0.25pt; margin-left:52.85pt; text-indent:-18.35pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Pemilik menyatakan dan menjamin bahwa Pemilik dalam kapasitasnya untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menggunakan Situs berdasarkan Perjanjian:</span>
-			</p>
-			<p style="margin-left:68.95pt; text-indent:-17.55pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1) Bertanggung jawab penuh atas setiap penggunaan </span><em><span style="font-family:Calibri; ">Layanan </span></em><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">sehubungan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan Akun miliknya; </span>
-			</p>
-			<p style="margin-top:1.8pt; margin-right:0.15pt; margin-left:68.95pt; text-indent:-17.9pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) Bertanggung jawab sepenuhnya dalam menjaga kerahasiaan Sertifikat Elektronik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dan </span><em><span style="font-family:Calibri; ">password </span></em><span style="font-family:Calibri">untuk Akun miliknya;</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:68.6pt; text-indent:-17.6pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">3) Menyetujui untuk memberitahukan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">atas setiap pemakaian Akun miliknya</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang tidak sah;</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:0.1pt; margin-left:69.3pt; text-indent:-18.65pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">4) Akan menggunakan Layanan Enkripa untuk maksud dan tujuan yang tidak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">bertentangan dengan hukum; dan, </span>
-			</p>
-			<p style="margin-top:1.4pt; margin-left:68.95pt; text-indent:-17.95pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">5) Bahwa setiap informasi yang Pemilik sampaikan kepada </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">adalah benar,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">akurat dan tepat; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.15pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Pemilik dengan segera akan memberitahukan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">jika Pemilik mengetahui</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terdapat pelanggaran terhadap poin c) di atas dalam bentuk yang termasuk namun</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tidak terbatas pada: </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:51.4pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1) Data pembuatan Sertifikat Elektronik telah dibobol; dan, </span>
-			</p>
-			<p style="margin-top:7.95pt; margin-left:34.5pt; text-indent:16.5pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) Keadaan yang diketahui oleh Pemilik dapat menimbulkan risiko, yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menyebabkan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terjadinya pembobolan terhadap data pembuatan Sertifikat Elektronik. e. Jika Anda menyetujui Perjanjian ini atas nama suatu persekutuan, firma, entitas,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perusahaan, badan hukum, lembaga atau organisasi, Anda menyatakan dan menjamin</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">bahwa Anda memiliki wewenang dan kapasitas untuk dapat menyetujui Perjanjian ini</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atas nama persekutuan, firma, entitas, perusahaan, badan hukum, lembaga atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">organisasi tersebut, Anda beserta dengan persekutuan, firma, entitas, perusahaan,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">badan hukum, lembaga atau organisasi yang diwakili tunduk pada ketentuan dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pelaksanaan dalam Perjanjian ini; </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-left:52.15pt; text-indent:-17.95pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">f. Anda telah membaca dan memahami seluruh isi Perjanjian ini, dan karenanya secara</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sukarela setuju untuk tunduk pada dan melaksanakan seluruh syarat dan ketentuan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dalam Perjanjian ini. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak memutus akses kepada Akun dan mengakhiri</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">sewaktu-waktu dalam hal terjadi pelanggaran atas Perjanjian ini, dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Anda menerima risiko bahwa data dan informasi yang tercatat di Akun Anda tidak dapat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diakses, tidak dapat diperoleh lagi dan dihapus dari database </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">setelah</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terjadinya pemutusan atau pengakhiran tersebut;</span>
-			</p>
-			<p style="margin-right:0.3pt; margin-left:52.15pt; text-indent:-17.85pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">g. Anda mengakui bahwa Anda tidak diperbolehkan menggunakan Situs ini apabila Anda</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tidak dapat membuat setiap pernyataan dan jaminan tersebut dalam Pasal ini serta</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">setiap pernyataan dan jaminan lainnya sebagaimana terkandung dalam Perjanjian.</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:21.75pt; margin-left:1.2pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Pengecualian Tanggung Jawab </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:52.15pt; text-indent:-17.65pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">menyediakan Layanan dalam kondisi “sebagaimana adanya” atau “</span><em><span style="font-family:Calibri; ">as is</span></em><span style="font-family:Calibri">” dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Anda mengakui bahwa Kami, kecuali dinyatakan secara tegas dalam CPS, tidak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memberikan pernyataan atau jaminan dalam bentuk apapun bahwa penggunaan Situs</span><span style="font-family:Calibri">&#xa0; </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">akan senantiasa tepat waktu, bekerja tanpa gangguan, atau selalu bebas dari</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perubahan, penambahan, pengurangan, transmisi, kerusakan, kehilangan,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pemindahan atau penyembunyian yang diakibatkan oleh tindakan pihak manapun baik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan sengaja dan tanpa hak atau melawan hukum. Setiap gangguan atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">keterlambatan dapat terjadi akibat gangguan atau keterlambatan pihak ketiga yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dapat digunakan oleh Anda; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.15pt; text-indent:-17.25pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Anda setuju untuk membebaskan Kami dari segala klaim, tuntutan, dan gugatan atas</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">setiap akibat atau kerugian yang timbul sehubungan dengan: (i) tidak terlaksananya</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau tertundanya suatu Transaksi Elektronik; dan/atau (ii) adanya gangguan,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">keterlambatan, perubahan, atau ketidaktersediaan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">atau Layanan Kami</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">(termasuk dalam hal Kami tidak dapat melaksanakan atau melanjutkan sebagian atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">seluruh instruksi atau komunikasi Anda kepada Kami melalui Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">), yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">disebabkan karena kejadian atau hal-hal di luar kekuasaan Kami, termasuk namun tidak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terbatas pada: </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:69.3pt; text-indent:-17.9pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1) Bencana alam, perang, huru-hara, kebijakan pemerintah, kegagalan sistem</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perbankan, krisis moneter; dan/atau, </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:68.15pt; text-indent:-17.1pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) Gangguan atau ketidaktersediaan layanan pihak ketiga antara lain gangguan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">jaringan internet, daya, telekomunikasi dan arus listrik secara berkelanjutan, atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">hal-hal lainnya di luar kekuasaan Kami; </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-left:52.45pt; text-indent:-17.9pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Anda setuju bahwa Kami tidak bertanggung jawab atas setiap akibat atau kerugian, baik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">secara langsung maupun tidak langsung, yang timbul akibat hal-hal sebagaimana</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">disebutkan di atas, termasuk namun tidak terbatas pada hal-hal yang disebabkan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">karena kesalahan Pemilik yaitu: (i) kehilangan data; (ii) kehilangan pendapatan, </span>
-			</p>
-			<p style="margin-right:0.2pt; margin-left:52.15pt; text-indent:0.65pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">keuntungan, atau pemasukan lainnya; dan/atau (iii) kehilangan, kerusakan atau cedera</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang timbul dari : </span>
-			</p>
-			<p style="margin-top:1.8pt; margin-left:51.4pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1) Penggunaan Anda atas Akun, Layanan, Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA</span></strong><span style="font-family:Calibri">; </span>
-			</p>
-			<p style="margin-top:8pt; margin-left:51.05pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) Setiap kesalahan atau ketidakakuratan konten; </span>
-			</p>
-			<p style="margin-top:7.95pt; margin-right:0.25pt; margin-left:68.9pt; text-indent:-17.9pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">3) Setiap akses atau penggunaan tidak sah dari server Kami dan/atau setiap dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">seluruh informasi pribadi yang tersimpan pada server tersebut, yang berasal dari</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pihak ketiga; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:50.65pt; text-indent:-0.3pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">4) Interupsi jaringan dari dan kepada server Kami yang berasal dari pihak ketiga; 5) Setiap gangguan dalam bentuk apapun kepada Akun, Situs atau Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><span style="font-family:Calibri">yang berasal dari pihak ketiga; dan, </span>
-			</p>
-			<p style="margin-top:1.75pt; margin-right:0.2pt; margin-left:69.4pt; text-indent:-18.4pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">6) Setiap pengungkapan informasi yang sesuai dengan Perjanjian atau Kebijakan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Privasi Kami. </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.35pt; text-indent:-17.8pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">menjamin kerugian Pemilik yang diakibatkan oleh kegagalan layanan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Penyelenggaraan Sertifikat Elektronik, kesengajaan, dan/atau kelalaian kepada</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pengguna karena kegagalannya dalam mematuhi kewajiban sebagai PSrE sesuai</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan ketentuan perundang-undangan. Kegagalan Layanan Penyelenggaraan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Sertifikasi Elektronik berarti setiap kegagalan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">selain yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diakibatkan oleh peristiwa-peristiwa sebagaimana diatur dalam Pasal 9 dan Pasal 10</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Perjanjian ini (selanjutnya disebut sebagai “</span><strong><span style="font-family:Calibri; ">Kegagalan Layanan Penyelenggaraan</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">Sertifikasi Elektronik</span></strong><span style="font-family:Calibri">”); </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:0.2pt; margin-left:52.15pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">e. Batasan tanggung jawab Kami kepada Pemilik Sertifikat atas setiap perselisihan yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">timbul dari atau sehubungan dengan Layanan DTB atau penggunaan Situs oleh Pemilik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Sertifikat, terlepas dari forum penyelesaian perselisihan atau terlepas dari tuntutan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">berasal dari perbuatan melawan hukum, wanprestasi atau lain sebagainya, tidak akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melebihi Rp.1.000.000,00 (satu juta Rupiah). </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-left:51.4pt; text-indent:-17.15pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">f. Anda setuju untuk membebaskan Kami dari segala klaim, tuntutan, gugatan, dan ganti</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">rugi apapun dan dari pihak manapun yang timbul sehubungan dengan: 1) Konten yang dapat disediakan oleh pihak ketiga pada Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">seperti </span><em><span style="font-family:Calibri; ">link</span></em><em><span style="font-family:Calibri; ">&#xa0; </span></em>
-			</p>
-			<p style="margin-top:1.65pt; margin-right:0.2pt; margin-left:73pt; text-indent:0.65pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">kepada situs pihak ketiga lainnya, layanan atau produk yang di luar kendali Kami.</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Kami tidak menyatakan atau menjamin apapun sehubungan dengan kualitas,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">fungsionalitas atau legalitas dari setiap konten pihak ketiga yang dapat diakses </span>
-			</p>
-			<p style="margin-right:0.15pt; margin-left:73pt; text-indent:0.7pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">melalui </span><em><span style="font-family:Calibri; ">link </span></em><span style="font-family:Calibri">tersebut dan dengan ini Anda melepaskan setiap hak Anda untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menyampaikan klaim kepada Kami sehubungan dengan setiap konten pihak ketiga</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tersebut; </span>
-			</p>
-			<p style="margin-top:1.75pt; margin-right:0.2pt; margin-left:73.7pt; text-indent:-22.65pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) penggunaan data pribadi Pemilik yang telah diterima oleh pihak ketiga atas</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">persetujuan Pemilik; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:73pt; text-indent:-22pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">3) Penggunaan informasi atau data pribadi yang tidak sesuai, akurat, dan/atau valid,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang diberikan oleh Pemilik kepada Kami dalam penggunaan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><span style="font-family:Calibri">berdasarkan Perjanjian ini, atau berdasarkan persetujuan, pengakuan, wewenang,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">kuasa, dan/atau hak; </span>
-			</p>
-			<p style="margin-top:21.7pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Keadaan Memaksa atau </span></strong><strong><em><span style="font-family:Calibri; ">Force Majeure </span></em></strong>
-			</p>
-			<p style="margin-top:9.45pt; margin-left:36.25pt; text-indent:-0.1pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Tanpa mengesampingkan ketentuan apapun dalam Perjanjian ini, tidak ada Pihak yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">wajib bertanggung jawab atas segala kegagalan atau keterlambatan pada bagiannya untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melaksanakan kewajiban apapun dalam Perjanjian ini sepanjang kegagalan atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">keterlambatan tersebut disebabkan oleh peristiwa atau keadaan di luar kendalinya baik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">secara langsung maupun tidak langsung, yang berdampak terhadap kemampuan Pihak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tersebut untuk melaksanakan kewajiban-kewajibannya berdasarkan Perjanjian ini.</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Keadaan-keadaan tersebut dapat termasuk, namun tidak terbatas pada keadaan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memaksa, bencana alam, kebakaran, tindakan masyarakat, vandalisme, banjir, wabah</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pandemi serta setiap dampaknya, sengketa industrial, dan yang terjadi tanpa kesalahan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau kelalaian Pihak yang mencari penggantian (suatu "</span><strong><span style="font-family:Calibri; ">Keadaan Memaksa</span></strong><span style="font-family:Calibri">" atau “</span><strong><em><span style="font-family:Calibri; ">Force</span></em></strong><strong><em><span style="font-family:Calibri; ">&#xa0; </span></em></strong><strong><em><span style="font-family:Calibri; ">Majeure</span></em></strong><span style="font-family:Calibri">”). Setiap Pihak wajib menanggung kerugian sendiri yang timbul dari Keadaan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Memaksa. </span>
-			</p>
-			<p style="margin-top:21.65pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Ketentuan Ganti Rugi </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:50.55pt; text-indent:-13.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Anda menyetujui untuk melindungi, mengganti rugi dan membebaskan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">dari</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dan terhadap setiap dan seluruh klaim dan kerugian, tanggung jawab, biaya dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pengeluaran (termasuk namun tidak terbatas pada klaim dan kerugian, tanggung jawab,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">biaya dan pengeluaran dari pihak ketiga) yang diderita atau ditanggung oleh </span><strong><span style="font-family:Calibri; ">ENKRIPA</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><span style="font-family:Calibri">yang timbul dari atau sehubungan dengan, baik secara langsung maupun tidak langsung</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terkait: (a) penyalahgunaan dalam hal pengaksesan yang Anda atas Situs </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">; (b) </span>
-			</p>
-			<p style="margin-left:50.9pt; text-indent:0.35pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">pelanggaran atas Perjanjian oleh Anda atau Pemilik Yang Berwenang; (c) pelanggaran</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atas hak kekayaan intelektual atau hak lainnya oleh Anda dan/atau Pemilik yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Berwenang; (d) setiap data yang Anda berikan untuk diproses oleh Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">;</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau (e) setiap produk atau jasa yang Anda beli atau dapatkan sehubungan dengan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">; </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-left:50.55pt; text-indent:-13.25pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">berhak untuk menyelesaikan dan membayar, tanpa persetujuan Anda</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terlebih dahulu, setiap dan seluruh klaim yang diajukan kepada Kami. Kami berhak,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan biaya Anda, untuk mendapatkan perlindungan hukum atas setiap pelanggaran</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang dilakukan oleh Anda dimana Anda wajib mengganti kerugian Kami dan Anda setuju</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">untuk melindungi Kami dari setiap klaim tersebut. Kami akan menggunakan upaya yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">wajar untuk memberitahukan Anda atas setiap klaim, gugatan, atau persidangan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tersebut. </span>
-			</p>
-			<p style="margin-top:21.7pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Pengakhiran Akun dan Layanan </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:51.25pt; text-indent:-14.35pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Akun Anda akan berlaku tanpa batasan waktu kecuali dalam hal Anda mengirimkan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">permintaan tertulis ke alamat surat elektronik (</span><em><span style="font-family:Calibri; ">e-mail</span></em><span style="font-family:Calibri">) </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">yang tertera pada</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Perjanjian ini untuk menutup/mengakhiri penggunaan Akun Anda; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:50.55pt; text-indent:-13.25pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Apabila terjadi atau diduga terjadinya suatu pelanggaran oleh Anda atas Perjanjian ini</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau ketentuan lainnya, </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">atas kebijakan mutlaknya berhak untuk mengakhiri</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">hak Anda untuk menggunakan Akun dan Layanan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">lebih lanjut atau mengambil</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tindakan lainnya yang dianggap perlu. </span>
-			</p>
-			<p style="margin-top:21.7pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Hukum yang Mengatur </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:37.2pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Perjanjian ini diatur dan ditafsirkan berdasarkan hukum yang berlaku di Republik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Indonesia. </span>
-			</p>
-			<p style="margin-top:21.65pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Penyelesaian Sengketa </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:52.8pt; text-indent:-15.45pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Setiap perselisihan yang timbul dari atau sehubungan dengan Perjanjian ini (termasuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">perselisihan tentang validitas Perjanjian ini) (“</span><strong><span style="font-family:Calibri; ">Perselisihan</span></strong><span style="font-family:Calibri">”) wajib diselesaikan secara</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">musyawarah mufakat dengan salah satu pihak (baik Pemilik atau </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">(“</span><strong><span style="font-family:Calibri; ">Pihak</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong><strong><span style="font-family:Calibri; ">Pertama</span></strong><span style="font-family:Calibri">”) menyampaikan pemberitahuan tertulis kepada pihak lainnya (“</span><strong><span style="font-family:Calibri; ">Pihak </span></strong>
-			</p>
-			<p style="margin-left:52.15pt; text-indent:0.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<strong><span style="font-family:Calibri; ">Kedua</span></strong><span style="font-family:Calibri">”) atas terjadinya atau dugaan terjadinya Perselisihan (“</span><strong><span style="font-family:Calibri; ">Notifikasi Perselisihan</span></strong><span style="font-family:Calibri">”).</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pihak Pertama dan Pihak Kedua akan diberi waktu 30 (tiga puluh) hari kalender sejak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tanggal Notifikasi Perselisihan diterima oleh Pihak Kedua (“</span><strong><span style="font-family:Calibri; ">Periode Musyawarah</span></strong><span style="font-family:Calibri">”)</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">untuk menyelesaikan Perselisihan; </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-left:52.85pt; text-indent:-15.15pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Anda dan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">menyetujui untuk menggunakan upaya terbaiknya untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menyelesaikan setiap perselisihan, klaim atau pertentangan, melalui konsultasi secara</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">langsung dengan </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><em><span style="font-family:Calibri; ">; </span></em>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.55pt; text-indent:-15.2pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Apabila Perselisihan tidak dapat diselesaikan sampai dengan berakhirnya Periode</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Musyawarah, maka Perselisihan dapat diselesaikan melalui arbitrase sesuai dengan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">peraturan prosedur arbitrase (“</span><strong><span style="font-family:Calibri; ">Peraturan Arbitrase</span></strong><span style="font-family:Calibri">”) Badan Arbitrase Nasional</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Indonesia yang beralamat di Wahana Graha Lantai 1 dan 2, Jalan Mampang Prapatan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Nomor. 2 Jakarta 12760 (“</span><strong><span style="font-family:Calibri; ">BANI</span></strong><span style="font-family:Calibri">”), yang untuk saat ini sedang berlaku, yang mana</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Peraturan Arbitrase dianggap dimasukkan ke dalam Klausul ini dengan referensi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">(dengan ketentuan bahwa, jika terjadi pertentangan antara Peraturan Arbitrase dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">ketentuan klausul ini, maka ketentuan klausul ini yang akan berlaku). Pihak Pertama</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dan Pihak Kedua selanjutnya setuju bahwa: </span>
-			</p>
-			<p style="margin-top:1.7pt; margin-left:51.4pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1) Kursi (tempat hukum) arbitrase adalah Indonesia; </span>
-			</p>
-			<p style="margin-top:7.95pt; margin-right:0.2pt; margin-left:74.15pt; text-indent:-23.1pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) Majelis arbitrase terdiri dari 1 (satu) arbiter tunggal, yang akan ditunjuk oleh Ketua</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">di Pengadilan Arbitrase BANI; </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:50.95pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">3) Bahasa arbitrase adalah Bahasa Indonesia; </span>
-			</p>
-			<p style="margin-top:7.95pt; margin-left:74.15pt; text-indent:-23.45pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">4) Semua putusan harus mengikat Para Pihak dan melepaskan semua hak banding</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau hak meminta bantuan ke pengadilan mana pun; dan, </span>
-			</p>
-			<p style="margin-top:1.4pt; margin-right:0.25pt; margin-left:74.5pt; text-indent:-23.5pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">5) Seluruh biaya arbitrase dan biaya hukum yang timbul sehubungan dengan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pelaksanaan arbitrase wajib ditanggung oleh pihak yang kalah. </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:52.15pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Dengan ini Anda menyetujui bahwa arbitrase akan dijalankan dalam kapasitas para</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pihak secara individual dan bukan sebagai gugatan perwakilan kelompok (</span><em><span style="font-family:Calibri; ">class action</span></em><span style="font-family:Calibri">),</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dan dengan ini Anda melepaskan hak anda untuk mendaftarkan gugatan </span><em><span style="font-family:Calibri; ">class action</span></em><em><span style="font-family:Calibri; ">&#xa0; </span></em><span style="font-family:Calibri">atau mendapatkan penyelesaian Perselisihan secara kelompok. Jika terdapat forum</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">yang menyatakan bahwa pelepasan hak atas pelaksanaan </span><em><span style="font-family:Calibri; ">class action </span></em><span style="font-family:Calibri">yang terkandung</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dalam Pasal ini tidak berlaku atas alasan apapun atau jika arbitrase dapat berlangsung</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">secara kelompok, maka ketentuan arbitrase yang terkandung dalam Pasal ini dianggap </span>
-			</p>
-			<p style="margin-right:0.3pt; margin-left:52.45pt; text-indent:0.4pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">batal demi hukum dan para pihak dianggap tidak menyepakati untuk penyelesaian</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sengketa melalui arbitrase. </span>
-			</p>
-			<p style="margin-top:21.85pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Keterpisahan </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-right:0.2pt; margin-left:36.2pt; text-indent:-0.15pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Jika, kapanpun, ketentuan apapun dalam Perjanjian ini adalah atau menjadi tidak sah, atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tidak dapat diberlakukan dalam hal apapun berdasarkan hukum apapun dari yurisdiksi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">manapun, maka hal tersebut tidak akan mempengaruhi legalitas, keabsahan atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">keberlakuan ketentuan lainnya dari Perjanjian ini di yurisdiksi tersebut atau di yurisdiksi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">lain. </span>
-			</p>
-			<p style="margin-top:21.65pt; margin-left:1.8pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Bahasa </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-right:0.35pt; margin-left:57.95pt; text-indent:-20.6pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Setiap Pemberitahuan yang diberikan sehubungan dengan Perjanjian ini harus dibuat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dalam Bahasa Indonesia; dan, </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:37.65pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Ketentuan ini dibuat dan ditandatangani dalam Bahasa Indonesia. </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:40.65pt; text-align:justify; line-height:normal; widows:0; orphans:0">
-				<strong>&#xa0;</strong>
-			</p>
-			<p style="margin-top:12pt; margin-bottom:12pt">
-				<strong>&#xa0;</strong>
-			</p>
-			<p style="margin-top:0.55pt; margin-right:2.1pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Enkripa telah mengikuti standar ISO 27001 dalam pengelolaan sistem manajemen keamanan informasi,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">termasuk perlindungan data pribadi. Ini mencakup implementasi kontrol keamanan untuk melindungi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">data pribadi dari akses yang tidak sah dan penyalahgunaan. Perolehan data pribadi adalah proses di mana</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Enkripa mengumpulkan dan memproses informasi yang dapat mengidentifikasi seseorang, seperti nama,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">alamat email, dan informasi identifikasi lainnya, untuk memberikan layanan yang dijanjikan kepada</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik serta memenuhi tanggung jawabnya sebagai penerbit Sertifikat Elektronik sesuai dengan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">peraturan perundang-undangan. Tujuan pengumpulan data pribadi adalah untuk memberikan layanan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Sertifikat Elektronik yang sesuai dengan yang dijanjikan oleh Enkripa. Data pribadi diproses sebagai</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">bagian dari kewajiban Enkripa untuk mematuhi peraturan dan perundang-undangan yang berlaku terkait</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">penerbitan Sertifikat Elektronik. </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-right:0.1pt; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Proses perolehan data pribadi dilakukan ketika Pemilik memohon untuk mendapatkan Sertifikat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Elektronik melalui Situs Enkripa dengan ketentuan. sebagai berikut: </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-right:0.1pt; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="margin-right:0.1pt; margin-left:36pt; text-align:justify; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Enkripa akan memperoleh data pribadi langsung dari Pemilik selama proses permohonan.</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Selanjutnya pihak Enkripa akan melakukan verifikasi keakuratan data yang diberikan oleh Pemilik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">untuk memastikan bahwa informasi yang dikumpulkan adalah valid dan benar. </span>
-			</p>
-			<p style="margin-top:0.9pt; margin-right:0.15pt; margin-left:36pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Enkripa tidak mengumpulkan informasi tambahan tentang Pemilik dari Otoritas Validasi.</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:0.9pt; margin-right:0.15pt; margin-left:36pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Apabila Pemilik memulai proses permohonan Sertifikat Elektronik melalui Situs Enkripa tetapi tidak</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menyelesaikannya, Enkripa tidak akan menyimpan data pribadi Pemilik. Data akan dihapus sesuai</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan kebijakan privasi dan peraturan yang berlaku. </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-left:36pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Enkripa mematuhi semua peraturan perundang-undangan yang berlaku terkait perlindungan data</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pribadi, termasuk ketentuan mengenai pengumpulan, pemrosesan, dan penyimpanan data pribadi. e. Enkripa memastikan bahwa pengumpulan dan pemrosesan data pribadi dilakukan sesuai dengan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">prinsip-prinsip perlindungan data pribadi yang berlaku, seperti transparansi, akurasi, dan keamanan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">data.</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:16.45pt; margin-right:2.4pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Enkripa menerapkan langkah-langkah keamanan yang sesuai untuk melindungi data pribadi dari risiko</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">seperti akses yang tidak sah, kehilangan, atau kerusakan. </span>
-			</p>
-			<p style="margin-top:6.7pt; margin-left:36pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Data yang Enkripa Kumpulkan Secara Otomatis </span>
-			</p>
-			<p style="margin-top:2.75pt; margin-right:2.15pt; margin-left:36pt; text-align:justify; line-height:102%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Pengumpulan data otomatis merujuk pada proses di mana Enkripa secara otomatis mengumpulkan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">informasi tertentu saat Pemilik menggunakan layanan Enkripa, seperti saat melakukan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">penandatanganan elektronik. Data ini dikumpulkan tanpa memerlukan tindakan manual dari Pemilik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dan digunakan untuk berbagai tujuan, termasuk untuk meningkatkan keamanan, menganalisis</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">penggunaan, dan memastikan kepatuhan terhadap kebijakan. Data yang dikumpulkan oleh Enkripa secara otomatis, meliputi: IP Address, Login Information.</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:6.35pt; margin-left:36pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Jenis Data Pribadi yang Enkripa Peroleh </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:12.4pt; margin-left:36pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Jenis Data Pribadi yang Enkripa peroleh bergantung pada Sertifikat Elektronik, produk, atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Layanan yang dipilih, sebagaimana diatur di dalam Dokumen Tata Kelola Enkripa. Dokumen Tata</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Kelola ini dipublikasikan di Situs Enkripa, dan Enkripa menyarankan Pemilik untuk mempelajari</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">agar mengetahui produk dan Layanan Enkripa. </span>
-			</p>
-			<p style="margin-top:0.65pt; margin-right:7.6pt; margin-left:36pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Contoh, apabila Pemilik mendaftarkan Sertifikat Elektronik secara langsung melalui Situs Enkripa,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik akan diminta untuk menyediakan informasi sebagai berikut: </span>
-			</p>
-			<p style="margin-top:0.9pt; margin-left:72pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1. NIK </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-left:72pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2. Nama </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-left:72pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">3. Tempat &amp; Tanggal Lahir </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-left:72pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">4. Alamat email </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-left:72pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">5. Nomor telepon </span>
-			</p>
-			<p style="margin-top:2.75pt; margin-left:72pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">6. Data Biometrik </span>
-			</p>
-			<p style="margin-top:8.55pt; margin-right:12.4pt; margin-left:36pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Ketika Pemilik mengajukan permohonan untuk mendapatkan Sertifikat Elektronik yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diterbitkan oleh Enkripa, Pemilik diminta untuk memberikan Data Biometrik. Enkripa akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mengenkripsi Data Biometrik Pemilik, serta menyimpannya ke dalam pusat data Enkripa.</span>
-			</p>
-			<p style="margin-top:8.55pt; margin-right:12.4pt; margin-left:36pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Tujuan Penggunaan Data Pribadi </span></strong>
-			</p>
-			<p style="margin-top:2.75pt; margin-right:13pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Enkripa hanya akan menggunakan Data Pribadi Pemilik sesuai dengan tujuan perolehan, yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">akan Enkripa sampaikan terlebih dahulu kepada Pemilik, atau sesuai deskripsi di bawah ini.</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Enkripa hanya akan menggunakan Data Pribadi untuk tujuan-tujuan terkait fungsi Sertifikat,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">antara lain: </span>
-			</p>
-			<p style="margin-top:6.65pt; margin-right:13.05pt; margin-left:39.75pt; text-indent:-13.65pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Penerbitan dan pemrosesan Sertifikat Elektronik, termasuk verifikasi identitas Pemilik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sebagaimana dipersyaratkan oleh peraturan perundang-undangan, dan menyelesaikan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">transaksi terkait Sertifikat Elektronik. Terkait dengan data biometrik, data akan digunakan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">khusus untuk verifikasi identitas pada saat penerbitan Sertifikat Elektronik baru, otorisasi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">transaksi atau Layanan lain dari Pihak Pengandal, dan analitika lain yang terkait, misalnya</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pencegahan </span><em><span style="font-family:Calibri; ">fraud. </span></em>
-			</p>
-			<p style="margin-top:0.7pt; margin-right:13.45pt; margin-left:40.1pt; text-indent:-13.65pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Validasi kepada Pihak Pengandal bahwa suatu Sertifikat Elektronik sudah mutakhir dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">akurat. Enkripa juga akan menggunakan detail kontak Pemilik untuk mengirimkan pesan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">elektronik kepada Pemilik terkait produk baru, acara baru, atau perubahan atas Perjanjian</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik, termasuk Kebijakan Privasi ini. </span>
-			</p>
-			<p style="margin-top:3.25pt; margin-right:13.9pt; margin-left:40.4pt; text-indent:-14.3pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Data yang dikumpulkan oleh Enkripa digunakan untuk mencegah dan mendeteksi aktivitas</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">penipuan dan pelanggaran keamanan . </span>
-			</p>
-			<p style="margin-top:3.5pt; margin-right:13.65pt; margin-left:40pt; text-indent:-13.85pt; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Pemilik dapat memutuskan untuk tidak menerima informasi ini dengan mengirimkan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">permohonan ke info </span><u><span style="font-family:Calibri; color:#0000ff"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c7b4b2b7b7a8b5b387a2a9acb5aeb7a6e9aea3">[email&#160;protected]</a></span></u><span style="font-family:Calibri">, dan hal ini tidak akan berpengaruh terhadap status</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Sertifikat Pemilik. </span>
-			</p>
-			<p style="margin-top:3.3pt; margin-right:13.45pt; margin-left:40.4pt; text-indent:-14.3pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">e. Dalam hal Pemilik memberikan persetujuan kepada pihak ketiga untuk menggunakan Akun</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Enkripa untuk mengakses atau menggunakan Layanan yang disediakan oleh pihak ketiga,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">penggunaan data pribadi Pemilik oleh pihak ketiga tersebut tunduk kepada syarat dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">ketentuan dan/atau kebijakan privasi masing-masing pihak ketiga. </span>
-			</p>
-			<p style="margin-top:3.25pt; margin-right:13.1pt; margin-left:39.75pt; text-indent:-13.95pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">f. Pengungkapan Data Pribadi tidak akan dilakukan selain untuk penggunaan sebagaimana</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tersebut di atas, Enkripa juga diwajibkan untuk mengungkapkan Data Pribadi Pemilik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">berdasarkan hukum, perintah pengadilan, panggilan sidang, atau permintaan dari lembaga</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">negara atau pemerintah sesuai peraturan perundang-undangan yang berlaku. </span>
-			</p>
-			<p style="margin-top:3.25pt; margin-right:13.05pt; margin-left:39.75pt; text-indent:-13.85pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">g. Penggunaan Data Biometrik ketika Pemilik menggunakan Layanan, Pemilik akan memberikan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Data Biometrik melalui perangkat keras dan perangkat lunak tertentu. Data Biometrik</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tersebut akan dienkripsi dan akan diberikan kepada Enkripa, dimana Enkripa akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">mencocokkan Data Biometrik tersebut dengan informasi yang Enkripa sudah peroleh ketika</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik mendaftar. </span>
-			</p>
-			<p style="margin-top:3.25pt; margin-right:13.05pt; margin-left:39.75pt; text-indent:-13.85pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="margin-top:20.05pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Keamanan Data Pribadi </span></strong>
-			</p>
-			<p style="margin-top:8.8pt; margin-right:6.95pt; margin-left:36pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Enkripa mengambil langkah-langkah perlindungan dan penyimpanan data secara cermat untuk</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memastikan kerahasiaan Data Pribadi Pengguna tetap terjaga secara konsisten setiap waktu. </span><br /><span style="font-family:Calibri">b. Semua dokumen yang diunggah atau dikirimkan oleh Pengguna melalui platform Enkripa</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">terkait layanan yang disediakan akan dilindungi dengan standar keamanan industri, sehingga</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">data tersimpan dan terkirim dengan aman dan terjaga kerahasiaannya. </span><br /><span style="font-family:Calibri">c. Enkripa akan memberitahu pemilik jika terjadi masalah. Jika terjadi kebocoran data, Enkripa akan memberi tahu Pemilik sesuai dengan peraturan yang berlaku</span>
-			</p>
-			<p style="margin-top:0.55pt; margin-right:7pt; margin-left:36pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Hanya Pemilik yang bisa mengakses data Pemilik. Data Pemilik, termasuk pesan dan dokumen, hanya bisa diakses oleh Pemilik dan orang yang Pemilik beri izin.</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:7.15pt; margin-left:36pt; line-height:114%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">e. Enkripa mengadopsi standar keamanan tingkat tinggi, terbukti dengan pencapaian sertifikasi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">ISO 27001:2022 untuk Manajemen Keamanan Informasi. </span>
-			</p>
-			<p style="margin-top:0.75pt; margin-right:6.95pt; margin-left:36pt; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">f. Pemilik memiliki tanggung jawab penuh untuk menjaga kerahasiaan akun mereka, seperti kata</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sandi dan </span><em><span style="font-family:Calibri; ">One-Time Password </span></em><span style="font-family:Calibri">(OTP) yang dikirimkan oleh Enkripa, serta memastikan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">keamanan perangkat yang digunakan untuk mengakses layanan Enkripa. </span>
-			</p>
-			<p style="margin-top:19.6pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Penyimpanan Data Pribadi </span></strong>
-			</p>
-			<p style="margin-top:2.75pt; margin-right:6.9pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Enkripa akan menyimpan Data Pribadi Pengguna selama diperlukan untuk keperluan pemrosesan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">data sesuai dengan yang dijelaskan dalam Pemberitahuan Privasi ini, serta mematuhi ketentuan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">hukum dan peraturan perundang-undangan yang berlaku. Sebagai bukti komitmen Enkripa dalam</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menjaga kerahasiaan Data Pribadi Pemilik, Enkripa telah mendapatkan sertifikasi ISO 27001:2022</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">untuk Sistem Keamanan Manajemen Informasi. </span>
-			</p>
-			<p style="margin-top:26.45pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Hak Pemilik</span></strong><strong><span style="font-family:Calibri; ">&#xa0; </span></strong>
-			</p>
-			<p style="margin-top:2.75pt; margin-right:7.05pt; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Enkripa memberikan hak-hak kepada Pemilik terkait Data Pribadi mereka sesuai dengan rincian</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">sebagai berikut: </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-left:22.1pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Hak untuk Mengakses Data Pribadi :</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:6.7pt; margin-left:40.4pt; text-indent:0.05pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Pemilik berhak untuk meminta salinan data pribadi yang Enkripa simpan. Hal ini</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">memungkinkan Pemilik untuk mengetahui informasi apa saja yang Enkripa miliki dan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">bagaimana Enkripa menggunakannya. </span>
-			</p>
-			<p style="margin-top:0.65pt; margin-left:22.4pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Hak untuk Memperbaiki Data Pribadi yang Tidak Akurat : </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:6.65pt; margin-left:39.65pt; text-indent:-0.1pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Jika Pemilik menemukan data pribadi yang Enkripa simpan tentang Pemilik tidak akurat atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tidak lengkap, Pemilik berhak meminta Enkripa untuk memperbaikinya. Enkripa akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">melakukan upaya terbaik untuk memperbaiki data yang tidak akurat dalam jangka waktu yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">telah ditentukan setelah menerima permintaan Pemilik. </span>
-			</p>
-			<p style="margin-top:0.65pt; margin-left:22.1pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">c. Hak untuk Menghapus Data Pribadi :</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:2.1pt; margin-left:39.75pt; text-indent:0.7pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Dalam kondisi tertentu, Pemilik berhak meminta Enkripa untuk menghapus data pribadi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik. Misalnya, jika data tersebut tidak lagi diperlukan untuk tujuan yang Enkripa kumpulkan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau jika Pemilik menarik persetujuan Pemilik. Namun, perlu diketahui bahwa Enkripa mungkin</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">tidak dapat menghapus semua data Pemilik jika ada kewajiban hukum yang mengharuskan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Enkripa menyimpan data tersebut. </span>
-			</p>
-			<p style="margin-top:0.65pt; margin-left:22.1pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">d. Hak untuk Menolak Pemrosesan Data Pribadi :</span><span style="font-family:Calibri">&#xa0; </span>
-			</p>
-			<p style="margin-top:2.75pt; margin-right:2.1pt; margin-left:40.4pt; text-indent:0.05pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Pemilik berhak untuk menolak pemrosesan data pribadi Pemilik dalam kondisi tertentu,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">misalnya untuk tujuan pemasaran langsung. Jika Pemilik memilih untuk menolak, Enkripa akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">menghormati keputusan Pemilik. </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-left:22.1pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">e. Hak untuk Portabilitas Data : </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:2pt; margin-left:40.1pt; text-indent:0.4pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Pemilik berhak untuk meminta salinan data pribadi Pemilik dalam format yang umum</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">digunakan dan terstruktur, sehingga Pemilik dapat memindahkan data tersebut ke penyedia</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">layanan lain. Hak ini memungkinkan Pemilik untuk memiliki kendali lebih besar atas data pribadi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Pemilik.</span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:2pt; margin-left:40.1pt; text-indent:0.4pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Hukum yang Berlaku </span></strong>
-			</p>
-			<p style="margin-top:2.75pt; margin-left:18.9pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Ketentuan Penggunaan ini diatur hukum Negara Republik Indonesia. </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:2.05pt; margin-left:40.1pt; text-indent:-20.85pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Pemilik dan Enkripa sepakat bahwa setiap sengketa atau perselisihan yang timbul sehubungan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dengan Pemberitahuan Privasi ini, baik disebabkan oleh tindakan melawan hukum maupun</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pelanggaran terhadap satu atau lebih ketentuan dalam dokumen ini, akan diselesaikan melalui</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">langkah-langkah berikut: </span>
-			</p>
-			<p style="margin-top:0.65pt; margin-right:2.1pt; margin-left:62.5pt; text-indent:-17.55pt; text-align:justify; line-height:117%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">1) Salah satu pihak, baik Pemilik maupun Enkripa </span><strong><span style="font-family:Calibri; ">(“Pihak Pertama”)</span></strong><span style="font-family:Calibri">, wajib menyampaikan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pemberitahuan tertulis kepada pihak lainnya </span><strong><span style="font-family:Calibri; ">(“Pihak Kedua”) </span></strong><span style="font-family:Calibri">terkait terjadinya sengketa</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">atau perselisihan tersebut </span><strong><span style="font-family:Calibri; ">(“Pemberitahuan Perselisihan”). </span></strong><span style="font-family:Calibri">Kedua belah pihak sepakat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">untuk menyelesaikan sengketa tersebut melalui musyawarah untuk mufakat dalam waktu</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">paling lama 30 (tiga puluh) hari kalender sejak Pemberitahuan Perselisihan disampaikan </span><strong><span style="font-family:Calibri; ">(“Periode Penyelesaian Musyawarah”). </span></strong>
-			</p>
-			<p style="margin-top:0.85pt; margin-right:2.45pt; margin-left:62.55pt; text-indent:-17.9pt; text-align:justify; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">2) Jika hingga berakhirnya Periode Penyelesaian Musyawarah sengketa tidak dapat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diselesaikan secara damai, kedua pihak sepakat untuk membawa sengketa tersebut ke</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Badan Arbitrase Nasional Indonesia (BANI) sesuai dengan peraturan dan prosedur yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">berlaku di BANI, yang berlokasi di Wahana Graha, Lantai 1 dan 2, Jl. Mampang Prapatan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">No. 2, Jakarta 12760. Penyelesaian melalui arbitrase ini tunduk pada ketentuan berikut: </span>
-			</p>
-			<p style="margin-top:0.85pt; margin-right:2.45pt; margin-left:62.55pt; text-indent:-17.9pt; text-align:justify; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">&#xa0;</span>
-			</p>
-			<p style="margin-top:0.95pt; margin-right:56.35pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:'Times New Roman'">● </span><span style="font-family:Calibri">Bahasa yang digunakan selama proses arbitrase adalah Bahasa Indonesia. </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:106.05pt; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:'Times New Roman'">● </span><span style="font-family:Calibri">Tempat berlangsungnya arbitrase adalah di Jakarta, Indonesia. </span>
-			</p>
-			<p style="margin-top:2.55pt; margin-right:2.25pt; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:'Times New Roman'">● </span><span style="font-family:Calibri">Kedua belah pihak secara bersama-sama akan menunjuk satu (1) orang arbiter yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">bertindak sebagai arbiter tunggal untuk menyelesaikan perselisihan. </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-right:6.7pt; line-height:118%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:'Times New Roman'">● </span><span style="font-family:Calibri">Biaya arbitrase dan biaya hukum akan dibebankan kepada pihak yang kalah. </span>
-			</p>
-			<p style="margin-top:0.7pt; margin-right:6.7pt; line-height:118%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:'Times New Roman'">● </span><span style="font-family:Calibri">Putusan yang dikeluarkan oleh arbiter bersifat final dan mengikat kedua belah pihak. </span>
-			</p>
-			<p style="margin-top:11pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Perubahan Kebijakan </span></strong>
-			</p>
-			<p style="margin-top:2.8pt; margin-right:7.35pt; line-height:116%; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">Dari waktu ke waktu, Enkripa dapat mengubah Kebijakan Data Pribadi ini, yang akan berlaku efektif</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">pada saat dipublikasikan di situs </span><u><span style="font-family:Calibri; color:#1154cc">https://repository.Enkripa.id</span></u><span style="font-family:Calibri; color:#1154cc"> </span>
-			</p>
-			<p style="margin-top:27.95pt; line-height:normal; widows:0; orphans:0; font-size:14pt">
-				<strong><span style="font-family:Calibri; ">Kontak dan Pemberitahuan </span></strong>
-			</p>
-			<p style="margin-top:9.25pt; margin-left:21.95pt; text-indent:-17.6pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">a. Setiap Pemberitahuan dari Kami yang ditujukan kepada Anda atau Pemilik akan</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">diumumkan melalui Situs dan dikirimkan melalui surat elektronik (</span><em><span style="font-family:Calibri; ">e-mail</span></em><span style="font-family:Calibri">) atau</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Layanan Pesan Pendek (</span><em><span style="font-family:Calibri; ">SMS</span></em><span style="font-family:Calibri">) Pemilik yang terdaftar pada Akun </span><strong><span style="font-family:Calibri; ">ENKRIPA </span></strong><span style="font-family:Calibri">; dan, </span>
-			</p>
-			<p style="margin-top:1.65pt; margin-left:21.9pt; text-indent:-17.2pt; text-align:justify; line-height:normal; widows:0; orphans:0; font-size:12pt">
-				<span style="font-family:Calibri">b. Setiap Pemberitahuan dari Anda atau Pemilik yang ditujukan kepada Kami menjadi</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">efektif ketika pemberitahuan tersebut diterima oleh Kami melalui alamat surat</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">elektronik (</span><em><span style="font-family:Calibri; ">e-mail address</span></em><span style="font-family:Calibri">) </span><u><span style="font-family:Calibri; color:#1154cc"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9deee8ededf2efe9ddf8f3f6eff4edfcb3f4f9">[email&#160;protected]</a> </span></u><span style="font-family:Calibri">dan/atau melalui dokumen fisik yang</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">dikirimkan ke PT Enkripa Teknologi Indonesia dengan alamat Jl. H. Nawi Raya No.</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">191/17, Kel. Gandaria Utara Kec. Kebayoran Baru, Kota Jakarta Selatan 12140,</span><span style="font-family:Calibri">&#xa0; </span><span style="font-family:Calibri">Indonesia</span>
-			</p>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.1.2 (Linux)"/>
+	<meta name="created" content="2024-12-23T10:38:00"/>
+	<meta name="changedby" content="SIDIQ MUHAMMAD TOHA"/>
+	<meta name="changed" content="2025-01-03T09:17:00"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin-left: 0.59in; margin-right: 0.59in }
+		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.1in; direction: ltr; background: transparent }
+	</style>
+</head>
+<body lang="id-ID" link="#000080" vlink="#800000" dir="ltr"><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: 0in; margin-right: -0in; margin-top: 0.42in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Selamat
+datang di Akun, Layanan atau Situs </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Terima
+kasih atas kepercayaan Anda untuk  menggunakan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Perjanjian
+ini mengatur akses dan penggunaan Anda atas Akun, Layanan  dan Situs
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">(secara
+kolektif disebut sebagai “</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Situs</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+oleh para pengunjung (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Pengunjung
+ Situs</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+dan oleh para individu atau entitas yang telah berlangganan layanan
+Kami (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Layanan
+ ENKRIPA </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+atau membuat akun (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Akun</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+dan Pemilik Yang Berwenang (secara kolektif disebut  sebagai
+“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Pemilik</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”).
+Dengan menggunakan Situs atau setiap Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+Anda sebagai  Pengunjung Situs atau Pemilik dengan ini menerima dan
+menyetujui Perjanjian ini (baik atas nama  pribadi atau entitas hukum
+yang Anda wakili). Layanan kami dioperasikan oleh PT Enkripa 
+Teknologi Indonesia, perseroan terbatas yang didirikan secara sah
+berdasarkan hukum Republik  Indonesia dan berkedudukan di Jakarta
+Selatan, Indonesia. </font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-right: -0in; margin-top: 0.33in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>DENGAN
+MENGAKSES ATAU MENGGUNAKAN BAIK AKUN ATAU LAYANAN ENKRIPA , ANDA 
+MEMAHAMI, MENYETUJUI UNTUK MENGIKUTI DAN TERIKAT DENGAN SELURUH
+SYARAT DAN  KETENTUAN DALAM PERJANJIAN INI BESERTA CPS ENKRIPA DAN
+BERTANGGUNG JAWAB  KEPADA KAMI APABILA ANDA MELANGGAR PERJANJIAN INI.
+APABILA ANDA TIDAK  MENYETUJUI SYARAT DAN KETENTUAN TERSEBUT, ANDA
+TIDAK DIPERBOLEHKAN DAN HARUS  BERHENTI MENGGUNAKAN LAYANAN INI
+SEGERA. </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.33in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>1.Definisi
+dan Penafsiran </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>1.1
+Definisi </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dalam
+Perjanjian ini, kecuali konteks menentukan lainnya atau kecuali
+ketentuan ketentuan dalam Perjanjian ini secara tegas menyatakan
+sebaliknya, kata-kata dan  pernyataan yang diawali huruf kapital
+memiliki makna sebagai berikut: </font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Akun”
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	sebuah kode alfanumerik unik yang dibuat oleh Pemilik, yang dapat 
+	dihubungkan dengan nama pengguna (username) tertentu. Akun ini
+	digunakan untuk  mengidentifikasi Pemilik ketika mengakses dan
+	menggunakan Layanan Enkripa.</font></font></font></p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Dokumen
+	Elektronik” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">mencakup
+	segala bentuk informasi elektronik, baik dalam  format analog,
+	digital, elektromagnetik, optikal, atau format lainnya. Ini meliputi
+	 tulisan, suara, gambar, peta, rancangan, foto, serta huruf, tanda,
+	angka, kode akses,  simbol, atau perforasi yang dapat dilihat,
+	ditampilkan, dan/atau didengar melalui  komputer atau sistem
+	elektronik. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Informasi
+	Elektronik” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	data atau kumpulan data dalam format elektronik. Ini  termasuk
+	tulisan, suara, gambar, peta, rancangan, foto, serta berbagai bentuk
+	 komunikasi elektronik seperti email, telegram, dan dokumen digital
+	lainnya yang  diolah sehingga memiliki arti atau dapat dipahami. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Perjanjian”
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">merujuk
+	pada syarat dan ketentuan yang berlaku dan mengikat Pemilik  dan
+	Pemilik Yang Berwenang sehubungan dengan penggunaan Akun, Layanan, 
+	dan/atau Situs Enkripa. Ini mencakup semua aturan dan ketentuan yang
+	harus  dipatuhi oleh Pemilik dan Pemilik Yang Berwenang dalam
+	interaksi mereka dengan  Enkripa. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Layanan
+	atau Layanan Enkripa” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">mencakup
+	semua layanan yang disediakan oleh  Enkripa, termasuk namun tidak
+	terbatas pada penerbitan Sertifikat Elektronik,  pembuatan Tanda
+	Tangan Elektronik, dan layanan lain yang dinyatakan oleh Enkripa 
+	dari waktu ke waktu. Ini juga mencakup layanan yang mungkin telah
+	disepakati dalam  perjanjian terpisah jika Pemilik adalah entitas
+	hukum seperti persekutuan, firma, atau  organisasi. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Pemilik”
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	individu, persekutuan, firma, entitas, perusahaan, badan hukum, 
+	lembaga, atau organisasi yang menggunakan Layanan Enkripa. Istilah
+	ini mencakup  semua pihak yang memiliki Akun dan menggunakan layanan
+	yang disediakan oleh  Enkripa. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Pemilik
+	Yang Berwenang” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	individu yang secara sah diberi wewenang oleh  Pemilik untuk
+	menggunakan Layanan Enkripa. Ini bisa mencakup karyawan, rekan 
+	kerja, kontraktor, atau agen yang terdaftar dan diizinkan oleh
+	Pemilik untuk mewakili  mereka dalam penggunaan layanan. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Enkripa”
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">juga
+	dikenal sebagai PT Enkripa Teknologi Indonesia, adalah entitas yang 
+	menyediakan layanan yang diatur dalam Perjanjian ini. Semua
+	referensi &quot;Kami&quot; atau  &quot;Kita&quot; merujuk pada
+	Enkripa.</font></font></font></p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“</font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Penyelenggara
+	Sertifikasi Elektronik (PSrE)” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	entitas yang bertanggung jawab  untuk menerbitkan dan mencabut
+	Sertifikat Elektronik. Dalam konteks ini, PSrE  merujuk pada
+	Enkripa. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“</font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Sertifikat
+	Elektronik” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	dokumen elektronik yang diterbitkan oleh Enkripa dan  berisi Tanda
+	Tangan Elektronik serta identitas yang menunjukkan subjek hukum atau
+	 pihak-pihak dalam Transaksi Elektronik. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“</font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Situs”
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">merujuk
+	pada situs web resmi Enkripa, yaitu </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><u>https://www.enkripa.id/
+	</u></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">atau
+	situs  lain yang ditentukan oleh Enkripa dari waktu ke waktu. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Tanda
+	Tangan Elektronik” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	tanda tangan yang terdiri dari Informasi Elektronik  yang
+	dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik
+	lainnya. Ini  digunakan sebagai alat verifikasi dan otentikasi yang
+	dibuat melalui Layanan Enkripa. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Transaksi
+	Elektronik” </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	perbuatan hukum yang dilakukan menggunakan  komputer, jaringan
+	komputer, atau media elektronik lainnya. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000">“<font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>CPS
+	(</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><i><b>Certification
+	Practice Statement</b></i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>)”
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	kebijakan dan prosedur yang mengatur  penerbitan sertifikat dan
+	pengelolaan infrastruktur Penyelenggara Sertifikasi  Elektronik.
+	Kebijakan ini diterbitkan dan dipublikasikan oleh PT Enkripa
+	Teknologi  Indonesia melalui </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><u>https://repository.enkripa.id/</u></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">
+	</font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.33in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>1.2
+Penafsiran </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0.25in; margin-left: 0.26in; margin-right: 0in; margin-top: 0.11in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">a.
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>&quot;Perjanjian&quot;
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">ini
+mengacu pada perjanjian itu sendiri, termasuk perubahan, tambahan, 
+perpanjangan, atau revisi yang mungkin dilakukan dari waktu ke waktu.
+Ini mencakup  semua bentuk modifikasi yang disetujui oleh pihak-pihak
+terkait. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0.24in; margin-left: 0.26in; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">b.
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>&quot;Pengguna&quot;,
+&quot;Pengguna Yang Berwenang&quot;, &quot;Pengunjung Situs&quot;,
+&quot;anda&quot;, &quot;milik  anda&quot;, &quot;kamu&quot;
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Istilah-istilah
+ini mencakup semua individu atau entitas yang  menggunakan layanan
+atau mengunjungi situs, serta penerus hak dan pengguna yang 
+diizinkan. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0.25in; margin-left: 0.26in; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">c.
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>&quot;Enkripa&quot;,
+&quot;PT Enkripa Teknologi Indonesia&quot;, &quot;kami&quot; dan
+&quot;milik kami&quot;, </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Merujuk
+pada  perusahaan atau entitas yang menyediakan layanan, yaitu PT
+Enkripa Teknologi  Indonesia, dan dapat digunakan secara bergantian
+dengan istilah &quot;kami&quot;.</font></font></font></p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0.25in; margin-left: 0.26in; margin-right: 0in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">d.
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>&quot;Orang&quot;
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">termasuk
+individu, firma, perusahaan, korporasi, lembaga pemerintah, 
+asosiasi, atau kemitraan. Ini bisa juga mencakup entitas yang
+memiliki kepribadian  hukum terpisah. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0.24in; margin-left: 0.26in; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">e.
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>&quot;Peraturan&quot;
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">ini
+mencakup peraturan, aturan, kebijakan, atau pedoman dari badan 
+pemerintah, lembaga, atau organisasi lain, baik yang memiliki
+kekuatan hukum atau  tidak. Jika tidak memiliki kekuatan hukum,
+peraturan tersebut masih relevan jika  dianggap sebagai standar umum
+yang harus dipatuhi. </font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0.24in; margin-left: 0.25in; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+<br/>
 
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>2.Pembaruan
+dan Pemberitahuan </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	menyetujui untuk menerima setiap komunikasi, perjanjian dan
+	pemberitahuan  yang Kami sampaikan sehubungan dengan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">(“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>Pemberitahuan</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”),
+	 termasuk namun tidak terbatas pada Pemberitahuan sehubungan dengan
+	pelaksanaan  Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dan
+	pembelian Anda atas Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+	dan perubahan atas  Perjanjian secara elektronik, termasuk surat
+	elektronik (</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>email</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">),
+	pesan singkat (</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>sms</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">)
+	dan  notifikasi melalui Situs. Anda menyetujui bahwa setiap
+	Pemberitahuan tersebut telah  kami sampaikan secara tertulis dan
+	telah memenuhi setiap ketentuan hukum terkait  penyampaian
+	Pemberitahuan dan Anda menyetujui bahwa informasi terkait kontak 
+	Anda yang Anda sediakan pada Akun Anda adalah yang terbaru dan masih
+	berlaku.</font></font></font></p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Kami
+	berhak, dari waktu ke waktu, merevisi, memperbarui dan/atau
+	menyunting  Perjanjian atau setiap syarat dan ketentuan lainnya yang
+	berhubungan dengan setiap  Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">atas
+	kebijaksanaan mutlak Kami, untuk dapat mencerminkan 
+	perubahan-perubahan hukum yang berlaku atau Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>,
+	</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Kami
+	akan  memberitahukan kepada Anda terkait perubahan-perubahan
+	tersebut dan atau Anda  dapat melakukan pemeriksaan Situs secara
+	rutin untuk dapat melihat setiap perubahan  terbaru dari Perjanjian.
+	Jika Anda tetap menggunakan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">setelah
+	 perubahan Perjanjian telah berlaku efektif maka Anda dianggap telah
+	menyetujui untuk  terikat dengan perubahan terbaru dari Perjanjian.
+	Anda menyetujui bahwa Kami tidak  bertanggung jawab kepada Anda atau
+	setiap pihak ketiga atas setiap perubahan atas  Perjanjian;</font></font></font></p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-bottom: 0in">
+<br/>
+
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>3.Pemakaian
+Akun ENKRIPA dan Hak Akses Layanan </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hanya
+	Pemilik yang memiliki Akun </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">yang
+	dapat menggunakan Layanan  </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	</font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	tidak dapat mengalihkan Akun </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	kepada pihak manapun; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Untuk
+	menggunakan baik Akun dan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+	Anda bersedia untuk  memberikan beberapa informasi dan data pribadi
+	Anda kepada </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">secara
+	benar,  jelas, akurat, dan lengkap kepada </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+	antara lain data pribadi yang tercantum  dalam Kartu Tanda Penduduk
+	(KTP) atau kartu identitas lainnya, nomor telepon seluler,  alamat
+	surat elektronik, dan data biometrik dan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>IP
+	Address login information</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	</font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+	melakukan verifikasi terhadap perubahan, penambahan, atau  pembaruan
+	informasi dan data pribadi tersebut sesuai prosedur </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	</font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Apabila
+	Anda memberikan pernyataan dan jaminan, informasi atau data pribadi
+	yang  Kami anggap tidak benar, akurat atau lengkap, maka </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+	menolak  permohonan pembuatan Akun </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dan
+	menangguhkan atau memberhentikan  sebagian atau seluruh Layanan
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">yang
+	diberikan kepada Anda; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	berhak untuk menggunakan Akun </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">untuk
+	mengakses atau menggunakan  layanan yang disediakan oleh pihak
+	ketiga. Dengan menggunakan Akun </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	 untuk tujuan tersebut, Anda setuju bahwa pihak ketiga tersebut
+	dapat menerima dan  menggunakan data pribadi Anda. </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">tidak
+	akan memberikan data pribadi  Pemilik kepada pihak ketiga tanpa
+	persetujuan dari Pemilik. Penggunaan data pribadi  Pemilik oleh
+	pihak ketiga tersebut tunduk kepada syarat dan ketentuan dan/atau 
+	kebijakan privasi masing-masing pihak ketiga, dan bukan diatur
+	berdasarkan Perjanjian  ini; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dapat
+	menggunakan atau mengungkapkan data pribadi Pemilik dalam rangka 
+	memenuhi ketentuan hukum dan peraturan perundang-undangan, yaitu
+	dalam proses  penegakan hukum atau pengambilan tindakan pencegahan
+	lebih lanjut sehubungan  dengan dugaan tindak pidana atau
+	pelanggaran hukum atau peraturan perundang undangan. Sehubungan
+	dengan penggunaan atau pengungkapan tersebut, Anda  melepaskan dan
+	membebaskan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dari
+	segala klaim, tuntutan, ganti kerugian  yang mungkin timbul
+	sehubungan dengan penggunaan atau pengungkapan tersebut;</font></font></font></p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+	untuk sewaktu-waktu mengubah atau memutus akses kepada  sebagian
+	atau seluruh Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">untuk
+	sementara waktu dalam hal diperlukan  perbaikan dan/atau pengelolaan
+	lebih lanjut dalam rangka meningkatkan pelayanan  kepada Pemilik
+	atau dalam hal adanya dugaan kebocoran atau pelanggaran keamanan 
+	tanpa pemberitahuan terlebih dahulu kepada Pemilik; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	memahami bahwa seluruh komunikasi dan instruksi dari Anda yang
+	diterima oleh  Kami akan diperlakukan sebagai bukti meskipun tidak
+	dibuat dalam bentuk dokumen  tertulis yang menggunakan tanda tangan
+	basah, dan Anda setuju untuk membebaskan  Kami dari segala klaim,
+	tuntutan, dan ganti rugi yang mungkin timbul sehubungan  dengan
+	pelaksanaan instruksi dari Anda; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Jika
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">sebelumnya
+	telah melarang Anda untuk mengakses atau menggunakan  Situs atau
+	Layanan Enkripa lainnya maka Anda tidak diperbolehkan untuk
+	mengakses  Situs atau menggunakan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>.
+	</i></font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.33in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>4.Sertifikat
+Elektronik </b></font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: 0in; margin-left: 0.19in; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Sertifikat
+Elektronik yang diterbitkan oleh </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">akan
+berlaku selama periode satu (1)  tahun. </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+untuk mengirimkan pemberitahuan kepada Pemilik untuk  memperbarui
+Sertifikat Elektronik miliknya sebelum atau setelah berakhirnya masa
+berlaku  Sertifikat Elektronik tersebut. </font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: 0in; margin-left: 0.19in; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dengan
+ini menjamin dan menyatakan bahwa, menurut pengetahuan kami  mengenai
+informasi yang terkandung di dalam Sertifikat Elektronik yang telah
+kami  terbitkan adalah valid dan benar. Pihak yang menyetujui
+permohonan penerbitan Sertifikat  Elektronik dan menerbitkan
+Sertifikat Elektronik telah memenuhi persyaratan yang diatur  dalam
+CPS </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">saat
+menerbitkan Sertifikat Elektronik.  Private Key Pemilik telah
+disimpan pada perangkat yang memenuhi standar keamanan FIPS  140-2
+Level 2, sementara proses pembangkitan kunci dilakukan menggunakan
+perangkat  dengan standar FIPS 140-2 Level 3.</font></font></font></p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.19in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><b><br/>
+Privasi
+</b></font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.19in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dengan
+menggunakan Layanan Enkripa, Anda memberikan izin kepada Enkripa
+untuk  mempublikasikan informasi yang tertera dalam Sertifikat
+Elektronik Anda. Publikasi ini  mencakup data yang terdapat dalam
+Sertifikat Elektronik, seperti nama pemilik, informasi  organisasi,
+dan tanggal penerbitan sertifikat. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>5.
+Hak Kepemilikan </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	Kepemilikan menyatakan bahwa semua teknologi, data, desain, format,
+	dan konten  terkait dengan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+	milik eksklusif </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dan
+	dilindungi sebagai  kekayaan intelektual. Pengguna dilarang
+	menggunakan hak kekayaan intelektual  </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">tanpa
+	persetujuan tertulis terlebih dahulu. </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+	untuk  mengambil tindakan hukum terhadap pelanggaran hak kekayaan
+	intelektual dan  meminta ganti rugi atas kerugian yang timbul.
+	Pengguna harus mematuhi ketentuan  hak kekayaan intelektual dan
+	kebijakan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">.
+	Pemberitahuan dan klarifikasi akan  diberikan melalui kebijakan
+	privasi dan saluran komunikasi resmi </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">.
+	</font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	kepemilikan mencakup semua teknologi dan data yang terkait dengan
+	perangkat  lunak dan Situs Enkripa, serta segala desain, format, dan
+	pemrosesan yang digunakan  dalam Layanan Enkripa. Ini termasuk,
+	tetapi tidak terbatas pada, database, program,  protokol, tampilan,
+	manual, dan elemen lain yang berkaitan dengan Layanan dan  jaringan
+	Enkripa. Semua komponen ini merupakan hak milik eksklusif Enkripa
+	dan  dilindungi sebagai kekayaan intelektual. </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Larangan
+	Penggunaan Tanpa Persetujuan berarti anda setuju untuk tidak
+	menggunakan  hak kekayaan intelektual Enkripa tanpa mendapatkan
+	persetujuan tertulis terlebih  dahulu dari Enkripa. Penggunaan yang
+	tidak sah atau tanpa izin dapat dianggap sebagai  pelanggaran
+	terhadap hak milik Enkripa. </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pengakuan
+	berarti anda mengakui bahwa setiap upaya untuk menggunakan, 
+	mendistribusikan, atau mengubah hak kekayaan intelektual Enkripa
+	tanpa izin yang sah  akan dianggap sebagai pelanggaran nyata
+	terhadap ketentuan hak kekayaan intelektual  yang berlaku. </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	berhak untuk mengambil tindakan hukum terhadap individu atau entitas
+	yang  melanggar hak kekayaan intelektualnya, termasuk namun tidak
+	terbatas pada tindakan hukum untuk mengatasi pelanggaran hak cipta,
+	paten, merek dagang, dan rahasia  dagang. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>6.Larangan
+atas Penggunaan Situs </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: 0in; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dengan
+menggunakan Situs dan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+Anda menyetujui untuk tidak  melakukan aktivitas atau menyampaikan
+informasi yang, menurut kebijakan mutlak kami: </font></font></font>
+</p>
+<ol type="a">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Melanggar
+	hak pihak ketiga manapun, termasuk namun tidak terbatas pada, hak
+	atas privasi, hak cipta, hak merek, hak paten atau hak milik
+	lainnya;</font></font></font></p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Melanggar
+	setiap dan seluruh hukum yang berlaku di Republik Indonesia; </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Mengganggu
+	penggunaan pihak lainnya atas Situs </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>;
+	</i></font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Mencoba
+	menduplikasi atau meniru identitas orang lain; </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"> <font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Mengakses
+	atau menggunakan Akun Pemilik lainnya tanpa izin; </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Mengganggu
+	operasional Situs dengan cara, termasuk namun tidak terbatas pada, 
+	melumpuhkan, merusak, mencuri data, mengubah, menonaktifkan atau 
+	menghancurkan fungsionalitas atau kegunaan dari setiap fitur pada
+	Situs, atau server  atau jaringan yang terhubung dengan Situs atau
+	setiap Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">lainnya;
+	</font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.85in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Mencoba
+	untuk melakukan apapun dari setiap larangan di atas ini. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0in; margin-top: 0.39in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>7.
+Pernyataan dan Jaminan </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	menyatakan dan menjamin bahwa anda saat ini berusia 18 (delapan
+	belas) tahun  atau lebih dan  cakap dalam bertindak menurut hukum
+	yang berlaku di Republik  Indonesia untuk menyetujui dan
+	melaksanakan seluruh Perjanjian ini; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+	menyatakan bahwa pengumpulan dan penggunaan atas setiap informasi 
+	pribadi atau data yang disampaikan selama penggunaan Situs telah
+	dilakukan dengan  cara yang sesuai dengan hukum yang berlaku dan
+	memastikan kebenaran dan  keutuhan semua data yang terkait dengan
+	Sertifikat Elektronik tersebut. Pemilik dan  Pemilik Yang Berwenang
+	mengakui bahwa </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dapat
+	memproses data tersebut  sesuai dengan Kebijakan Privasi </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>;
+	 </i></font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+	menyatakan dan menjamin bahwa Pemilik dalam kapasitasnya untuk 
+	menggunakan Situs berdasarkan Perjanjian:</font></font></font></p>
+	<ol>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Bertanggung
+		jawab penuh atas setiap penggunaan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>Layanan
+		</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+		</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">sehubungan
+		 dengan Akun     miliknya;</font></font></font></p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Bertanggung
+		jawab sepenuhnya dalam menjaga kerahasiaan Sertifikat Elektronik 
+		dan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>password
+		</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">untuk
+		Akun miliknya;  </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Menyetujui
+		untuk memberitahukan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+		</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">atas
+		setiap pemakaian Akun miliknya  yang tidak sah;  </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Akan
+		menggunakan Layanan Enkripa untuk maksud dan tujuan yang tidak 
+		bertentangan dengan hukum; dan,</font></font></font></p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Bahwa
+		setiap informasi yang Pemilik sampaikan kepada </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+		</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">adalah
+		benar,  akurat dan tepat; </font></font></font>
+		</p></li>
+	</ol>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">milik
+	dengan segera akan memberitahukan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">jika
+	Pemilik mengetahui  terdapat pelanggaran terhadap poin c) di atas
+	dalam bentuk yang termasuk namun  tidak terbatas pada: </font></font></font>
+	</p>
+	<ol>
+		<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Data
+		pembuatan Sertifikat Elektronik telah dibobol; dan, </font></font></font>
+		</p></li>
+		<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Keadaan
+		yang diketahui oleh Pemilik dapat menimbulkan risiko, yang 
+		menyebabkan  terjadinya pembobolan terhadap data pembuatan
+		Sertifikat Elektronik. e. Jika Anda menyetujui Perjanjian ini atas
+		nama suatu persekutuan, firma, entitas,  perusahaan, badan hukum,
+		lembaga atau organisasi, Anda menyatakan dan menjamin  bahwa Anda
+		memiliki wewenang dan kapasitas untuk dapat menyetujui Perjanjian
+		ini  atas nama persekutuan, firma, entitas, perusahaan, badan
+		hukum, lembaga atau  organisasi tersebut, Anda beserta dengan
+		persekutuan, firma, entitas, perusahaan,  badan hukum, lembaga atau
+		organisasi yang diwakili tunduk pada ketentuan dan  pelaksanaan
+		dalam Perjanjian ini; </font></font></font>
+		</p></li>
+	</ol>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	telah membaca dan memahami seluruh isi Perjanjian ini, dan karenanya
+	secara  sukarela setuju untuk tunduk pada dan melaksanakan seluruh
+	syarat dan ketentuan  dalam Perjanjian ini. </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+	memutus akses kepada Akun dan mengakhiri  Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">sewaktu-waktu
+	dalam hal terjadi pelanggaran atas Perjanjian ini, dan  Anda
+	menerima risiko bahwa data dan informasi yang tercatat di Akun Anda
+	tidak dapat  diakses, tidak dapat diperoleh lagi dan dihapus dari
+	database </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">setelah
+	 terjadinya pemutusan atau pengakhiran tersebut;</font></font></font></p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	mengakui bahwa Anda tidak diperbolehkan menggunakan Situs ini
+	apabila Anda  tidak dapat membuat setiap pernyataan dan jaminan
+	tersebut dalam Pasal ini serta  setiap pernyataan dan jaminan
+	lainnya sebagaimana terkandung dalam Perjanjian.  </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>8.
+Pengecualian Tanggung Jawab </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">menyediakan
+	Layanan dalam kondisi “sebagaimana adanya” atau “</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>as
+	is</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”
+	dan  Anda mengakui bahwa Kami, kecuali dinyatakan secara tegas dalam
+	CPS, tidak  memberikan pernyataan atau jaminan dalam bentuk apapun
+	bahwa penggunaan Situs  </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">akan
+	senantiasa tepat waktu, bekerja tanpa gangguan, atau selalu bebas
+	dari  perubahan, penambahan, pengurangan, transmisi, kerusakan,
+	kehilangan,  pemindahan atau penyembunyian yang diakibatkan oleh
+	tindakan pihak manapun baik  dengan sengaja dan tanpa hak atau
+	melawan hukum. Setiap gangguan atau  keterlambatan dapat terjadi
+	akibat gangguan atau keterlambatan pihak ketiga yang  dapat
+	digunakan oleh Anda; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	setuju untuk membebaskan Kami dari segala klaim, tuntutan, dan
+	gugatan atas  setiap akibat atau kerugian yang timbul sehubungan
+	dengan: (i) tidak terlaksananya  atau tertundanya suatu Transaksi
+	Elektronik; dan/atau (ii) adanya gangguan,  keterlambatan,
+	perubahan, atau ketidaktersediaan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">atau
+	Layanan Kami  (termasuk dalam hal Kami tidak dapat melaksanakan atau
+	melanjutkan sebagian atau  seluruh instruksi atau komunikasi Anda
+	kepada Kami melalui Situs </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">),
+	yang  disebabkan karena kejadian atau hal-hal di luar kekuasaan
+	Kami, termasuk namun tidak  terbatas pada: </font></font></font>
+	</p>
+	<ol>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Bencana
+		alam, perang, huru-hara, kebijakan pemerintah, kegagalan sistem 
+		perbankan, krisis moneter; dan/atau, </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Gangguan
+		atau ketidaktersediaan layanan pihak ketiga antara lain gangguan 
+		jaringan internet, daya, telekomunikasi dan arus listrik secara
+		berkelanjutan, atau  hal-hal lainnya di luar kekuasaan Kami; </font></font></font>
+		</p></li>
+	</ol>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	setuju bahwa Kami tidak bertanggung jawab atas setiap akibat atau
+	kerugian, baik  secara langsung maupun tidak langsung, yang timbul
+	akibat hal-hal sebagaimana  disebutkan di atas, termasuk namun tidak
+	terbatas pada hal-hal yang disebabkan  karena kesalahan Pemilik
+	yaitu: (i) kehilangan data; (ii) kehilangan pendapatan, </font></font></font>
+	</p></li>
+</ol>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.25in; margin-right: 0in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">keuntungan,
+atau pemasukan lainnya; dan/atau (iii) kehilangan, kerusakan atau
+cedera  yang timbul dari : </font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.25in; margin-right: 0in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Penggunaan
+Anda atas Akun, Layanan, Situs </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+</font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.25in; margin-right: 0in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+kesalahan atau ketidakakuratan konten; </font></font></font>
+</p>
+<ol>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.11in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	akses atau penggunaan tidak sah dari server Kami dan/atau setiap dan
+	 seluruh informasi pribadi yang tersimpan pada server tersebut, yang
+	berasal dari  pihak ketiga; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.11in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Interupsi
+	jaringan dari dan kepada server Kami yang berasal dari pihak ketiga;
+	</font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.11in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	gangguan dalam bentuk apapun kepada Akun, Situs atau Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	 </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">yang
+	berasal dari pihak ketiga; dan, </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.11in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	pengungkapan informasi yang sesuai dengan Perjanjian atau Kebijakan 
+	Privasi Kami. </font></font></font>
+	</p></li>
+</ol>
+<ol type="a" start="4">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">menjamin
+	kerugian Pemilik yang diakibatkan oleh kegagalan layanan 
+	Penyelenggaraan Sertifikat Elektronik, kesengajaan, dan/atau
+	kelalaian kepada  Pengguna karena kegagalannya dalam mematuhi
+	kewajiban sebagai PSrE sesuai  dengan ketentuan perundang-undangan.
+	Kegagalan Layanan Penyelenggaraan  Sertifikasi Elektronik berarti
+	setiap kegagalan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">selain
+	yang  diakibatkan oleh peristiwa-peristiwa sebagaimana diatur dalam
+	Pasal 9 dan Pasal 10  Perjanjian ini (selanjutnya disebut sebagai
+	“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Kegagalan
+	Layanan Penyelenggaraan  Sertifikasi Elektronik</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”);
+	</font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Batasan
+	tanggung jawab Kami kepada Pemilik Sertifikat atas setiap
+	perselisihan yang  timbul dari atau sehubungan dengan Layanan DTB
+	atau penggunaan Situs oleh Pemilik  Sertifikat, terlepas dari forum
+	penyelesaian perselisihan atau terlepas dari tuntutan  berasal dari
+	perbuatan melawan hukum, wanprestasi atau lain sebagainya, tidak
+	akan  melebihi Rp.1.000.000,00 (satu juta Rupiah). </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	setuju untuk membebaskan Kami dari segala klaim, tuntutan, gugatan,
+	dan ganti  rugi apapun dan dari pihak manapun yang timbul sehubungan
+	dengan: </font></font></font>
+	</p>
+	<ol>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Konten
+		yang dapat disediakan oleh pihak ketiga pada Situs </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+		</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">seperti
+		</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>link
+		 </i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">kepada
+		situs pihak ketiga lainnya, layanan atau produk yang di luar
+		kendali Kami.  Kami tidak menyatakan atau menjamin apapun
+		sehubungan dengan kualitas,  fungsionalitas atau legalitas dari
+		setiap konten pihak ketiga yang dapat diakses melalui </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>link
+		</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">tersebut
+		dan dengan ini Anda melepaskan setiap hak Anda untuk  menyampaikan
+		klaim kepada Kami sehubungan dengan setiap konten pihak ketiga 
+		tersebut; </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">penggunaan
+		data pribadi Pemilik yang telah diterima oleh pihak ketiga atas 
+		persetujuan Pemilik; </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Penggunaan
+		informasi atau data pribadi yang tidak sesuai, akurat, dan/atau
+		valid,  yang diberikan oleh Pemilik kepada Kami dalam penggunaan
+		Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+		</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berdasarkan
+		Perjanjian ini, atau berdasarkan persetujuan, pengakuan, wewenang, 
+		kuasa, dan/atau hak; </font></font></font>
+		</p></li>
+	</ol>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>9.
+Keadaan Memaksa atau </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><i><b>Force
+Majeure </b></i></font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0in; margin-left: 0in; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Tanpa
+mengesampingkan ketentuan apapun dalam Perjanjian ini, tidak ada
+Pihak yang  wajib bertanggung jawab atas segala kegagalan atau
+keterlambatan pada bagiannya untuk  melaksanakan kewajiban apapun
+dalam Perjanjian ini sepanjang kegagalan atau  keterlambatan tersebut
+disebabkan oleh peristiwa atau keadaan di luar kendalinya baik 
+secara langsung maupun tidak langsung, yang berdampak terhadap
+kemampuan Pihak  tersebut untuk melaksanakan kewajiban-kewajibannya
+berdasarkan Perjanjian ini.  Keadaan-keadaan tersebut dapat termasuk,
+namun tidak terbatas pada keadaan  memaksa, bencana alam, kebakaran,
+tindakan masyarakat, vandalisme, banjir, wabah  pandemi serta setiap
+dampaknya, sengketa industrial, dan yang terjadi tanpa kesalahan 
+atau kelalaian Pihak yang mencari penggantian (suatu &quot;</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Keadaan
+Memaksa</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">&quot;
+atau “</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><i><b>Force
+ Majeure</b></i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”).
+Setiap Pihak wajib menanggung kerugian sendiri yang timbul dari
+Keadaan  Memaksa. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>10.
+Ketentuan Ganti Rugi </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	menyetujui untuk melindungi, mengganti rugi dan membebaskan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dari
+	 dan terhadap setiap dan seluruh klaim dan kerugian, tanggung jawab,
+	biaya dan  pengeluaran (termasuk namun tidak terbatas pada klaim dan
+	kerugian, tanggung jawab,  biaya dan pengeluaran dari pihak ketiga)
+	yang diderita atau ditanggung oleh </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	 </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">yang
+	timbul dari atau sehubungan dengan, baik secara langsung maupun
+	tidak langsung  terkait: (a) penyalahgunaan dalam hal pengaksesan
+	yang Anda atas Situs </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	(b) pelanggaran atas Perjanjian oleh Anda atau Pemilik Yang
+	Berwenang; (c) pelanggaran  atas hak kekayaan intelektual atau hak
+	lainnya oleh Anda dan/atau Pemilik yang  Berwenang; (d) setiap data
+	yang Anda berikan untuk diproses oleh Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	 atau (e) setiap produk atau jasa yang Anda beli atau dapatkan
+	sehubungan dengan  Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	</font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">berhak
+	untuk menyelesaikan dan membayar, tanpa persetujuan Anda  terlebih
+	dahulu, setiap dan seluruh klaim yang diajukan kepada Kami. Kami
+	berhak,  dengan biaya Anda, untuk mendapatkan perlindungan hukum
+	atas setiap pelanggaran  yang dilakukan oleh Anda dimana Anda wajib
+	mengganti kerugian Kami dan Anda setuju  untuk melindungi Kami dari
+	setiap klaim tersebut. Kami akan menggunakan upaya yang  wajar untuk
+	memberitahukan Anda atas setiap klaim, gugatan, atau persidangan 
+	tersebut. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>11.
+Pengakhiran Akun dan Layanan </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Akun
+	Anda akan berlaku tanpa batasan waktu kecuali dalam hal Anda
+	mengirimkan  permintaan tertulis ke alamat surat elektronik (</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>e-mail</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">)
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">yang
+	tertera pada  Perjanjian ini untuk menutup/mengakhiri penggunaan
+	Akun Anda; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Apabila
+	terjadi atau diduga terjadinya suatu pelanggaran oleh Anda atas
+	Perjanjian ini  atau ketentuan lainnya, </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">atas
+	kebijakan mutlaknya berhak untuk mengakhiri  hak Anda untuk
+	menggunakan Akun dan Layanan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">lebih
+	lanjut atau mengambil  tindakan lainnya yang dianggap perlu. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>12.
+Hukum yang Mengatur </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; text-indent: 0.3in; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Perjanjian
+ini diatur dan ditafsirkan berdasarkan hukum yang berlaku di Republik
+ Indonesia. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>13.
+Penyelesaian Sengketa </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	perselisihan yang timbul dari atau sehubungan dengan Perjanjian ini
+	(termasuk  perselisihan tentang validitas Perjanjian ini)
+	(“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Perselisihan</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+	wajib diselesaikan secara  musyawarah mufakat dengan salah satu
+	pihak (baik Pemilik atau </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">(“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Pihak
+	 Pertama</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+	menyampaikan pemberitahuan tertulis kepada pihak lainnya (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Pihak
+	Kedua</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+	atas terjadinya atau dugaan terjadinya Perselisihan (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Notifikasi
+	Perselisihan</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”).
+	 Pihak Pertama dan Pihak Kedua akan diberi waktu 30 (tiga puluh)
+	hari kalender sejak  tanggal Notifikasi Perselisihan diterima oleh
+	Pihak Kedua (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Periode
+	Musyawarah</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+	 untuk menyelesaikan Perselisihan; </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Anda
+	dan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">menyetujui
+	untuk menggunakan upaya terbaiknya untuk  menyelesaikan setiap
+	perselisihan, klaim atau pertentangan, melalui konsultasi secara 
+	langsung dengan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>;
+	</i></font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Apabila
+	Perselisihan tidak dapat diselesaikan sampai dengan berakhirnya
+	Periode  Musyawarah, maka Perselisihan dapat diselesaikan melalui
+	arbitrase sesuai dengan  peraturan prosedur arbitrase (“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>Peraturan
+	Arbitrase</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”)
+	Badan Arbitrase Nasional  Indonesia yang beralamat di Wahana Graha
+	Lantai 1 dan 2, Jalan Mampang Prapatan  Nomor. 2 Jakarta 12760
+	(“</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>BANI</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">”),
+	yang untuk saat ini sedang berlaku, yang mana  Peraturan Arbitrase
+	dianggap dimasukkan ke dalam Klausul ini dengan referensi  (dengan
+	ketentuan bahwa, jika terjadi pertentangan antara Peraturan
+	Arbitrase dan  ketentuan klausul ini, maka ketentuan klausul ini
+	yang akan berlaku). Pihak Pertama  dan Pihak Kedua selanjutnya
+	setuju bahwa: </font></font></font>
+	</p>
+	<ol>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Kursi
+		(tempat hukum) arbitrase adalah Indonesia; </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Majelis
+		arbitrase terdiri dari 1 (satu) arbiter tunggal, yang akan ditunjuk
+		oleh Ketua  di Pengadilan Arbitrase BANI; </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Bahasa
+		arbitrase adalah Bahasa Indonesia; </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Semua
+		putusan harus mengikat Para Pihak dan melepaskan semua hak banding 
+		atau hak meminta bantuan ke pengadilan mana pun; dan,</font></font></font></p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Seluruh
+		biaya arbitrase dan biaya hukum yang timbul sehubungan dengan 
+		pelaksanaan arbitrase wajib ditanggung oleh pihak yang kalah. </font></font></font>
+		</p></li>
+	</ol>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0.01in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dengan
+	ini Anda menyetujui bahwa arbitrase akan dijalankan dalam kapasitas
+	para  pihak secara individual dan bukan sebagai gugatan perwakilan
+	kelompok (</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>class
+	action</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">),
+	 dan dengan ini Anda melepaskan hak anda untuk mendaftarkan gugatan
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>class
+	action  </i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">atau
+	mendapatkan penyelesaian Perselisihan secara kelompok. Jika terdapat
+	forum  yang menyatakan bahwa pelepasan hak atas pelaksanaan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>class
+	action </i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">yang
+	terkandung  dalam Pasal ini tidak berlaku atas alasan apapun atau
+	jika arbitrase dapat berlangsung  secara kelompok, maka ketentuan
+	arbitrase yang terkandung dalam Pasal ini dianggap batal demi hukum
+	dan para pihak dianggap tidak menyepakati untuk penyelesaian 
+	sengketa melalui arbitrase. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.01in; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>14.
+Keterpisahan </b></font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: -0in; margin-left: 0in; margin-right: 0in; margin-top: 0.13in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Jika,
+kapanpun, ketentuan apapun dalam Perjanjian ini adalah atau menjadi
+tidak sah, atau  tidak dapat diberlakukan dalam hal apapun
+berdasarkan hukum apapun dari yurisdiksi  manapun, maka hal tersebut
+tidak akan mempengaruhi legalitas, keabsahan atau  keberlakuan
+ketentuan lainnya dari Perjanjian ini di yurisdiksi tersebut atau di
+yurisdiksi  lain. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.3in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>15.
+Bahasa </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	Pemberitahuan yang diberikan sehubungan dengan Perjanjian ini harus
+	dibuat  dalam Bahasa Indonesia; dan, </font></font></font>
+	</p></li>
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Ketentuan
+	ini dibuat dan ditandatangani dalam Bahasa Indonesia. <br/>
+</font></font></font><br/>
+
+	</p></li>
+</ol>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+telah mengikuti standar ISO 27001 dalam pengelolaan sistem manajemen
+keamanan informasi,  termasuk perlindungan data pribadi. Ini mencakup
+implementasi kontrol keamanan untuk melindungi  data pribadi dari
+akses yang tidak sah dan penyalahgunaan. Perolehan data pribadi
+adalah proses di mana  Enkripa mengumpulkan dan memproses informasi
+yang dapat mengidentifikasi seseorang, seperti nama,  alamat email,
+dan informasi identifikasi lainnya, untuk memberikan layanan yang
+dijanjikan kepada  Pemilik serta memenuhi tanggung jawabnya sebagai
+penerbit Sertifikat Elektronik sesuai dengan  peraturan
+perundang-undangan. Tujuan pengumpulan data pribadi adalah untuk
+memberikan layanan  Sertifikat Elektronik yang sesuai dengan yang
+dijanjikan oleh Enkripa. Data pribadi diproses sebagai  bagian dari
+kewajiban Enkripa untuk mematuhi peraturan dan perundang-undangan
+yang berlaku terkait  penerbitan Sertifikat Elektronik. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Proses
+perolehan data pribadi dilakukan ketika Pemilik memohon untuk
+mendapatkan Sertifikat  Elektronik melalui Situs Enkripa dengan
+ketentuan. sebagai berikut: </font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	akan memperoleh data pribadi langsung dari Pemilik selama proses
+	permohonan.  Selanjutnya pihak Enkripa akan melakukan verifikasi
+	keakuratan data yang diberikan oleh Pemilik  untuk memastikan bahwa
+	informasi yang dikumpulkan adalah valid dan benar. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	tidak mengumpulkan informasi tambahan tentang Pemilik dari Otoritas
+	Validasi.  </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Apabila
+	Pemilik memulai proses permohonan Sertifikat Elektronik melalui
+	Situs Enkripa tetapi tidak  menyelesaikannya, Enkripa tidak akan
+	menyimpan data pribadi Pemilik. Data akan dihapus sesuai  dengan
+	kebijakan privasi dan peraturan yang berlaku. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	mematuhi semua peraturan perundang-undangan yang berlaku terkait
+	perlindungan data  pribadi, termasuk ketentuan mengenai pengumpulan,
+	pemrosesan, dan penyimpanan data pribadi. e. Enkripa memastikan
+	bahwa pengumpulan dan pemrosesan data pribadi dilakukan sesuai
+	dengan  prinsip-prinsip perlindungan data pribadi yang berlaku,
+	seperti transparansi, akurasi, dan keamanan  data.  </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+menerapkan langkah-langkah keamanan yang sesuai untuk melindungi data
+pribadi dari risiko  seperti akses yang tidak sah, kehilangan, atau
+kerusakan. </font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.09in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Data
+	yang Enkripa Kumpulkan Secara Otomatis </font></font></font>
+	</p></li>
+</ol>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.25in; margin-top: 0.09in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pengumpulan
+data otomatis merujuk pada proses di mana Enkripa secara otomatis
+mengumpulkan  informasi tertentu saat Pemilik menggunakan layanan
+Enkripa, seperti saat melakukan  penandatanganan elektronik. Data ini
+dikumpulkan tanpa memerlukan tindakan manual dari Pemilik  dan
+digunakan untuk berbagai tujuan, termasuk untuk meningkatkan
+keamanan, menganalisis  penggunaan, dan memastikan kepatuhan terhadap
+kebijakan. Data yang dikumpulkan oleh Enkripa secara otomatis,
+meliputi: IP Address, Login Information.  </font></font></font>
+</p>
+<ol type="a" start="2">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.09in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Jenis
+	Data Pribadi yang Enkripa Peroleh</font></font></font></p></li>
+</ol>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.25in; margin-top: 0.09in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Jenis
+Data Pribadi yang Enkripa peroleh bergantung pada Sertifikat
+Elektronik, produk, atau  Layanan yang dipilih, sebagaimana diatur di
+dalam Dokumen Tata Kelola Enkripa. Dokumen Tata  Kelola ini
+dipublikasikan di Situs Enkripa, dan Enkripa menyarankan Pemilik
+untuk mempelajari  agar mengetahui produk dan Layanan Enkripa. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.25in; margin-top: 0.09in; margin-bottom: 0in">
+<br/>
+
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.11in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Contoh,
+apabila Pemilik mendaftarkan Sertifikat Elektronik secara langsung
+melalui Situs Enkripa,  Pemilik akan diminta untuk menyediakan
+informasi sebagai berikut: </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.5in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">1.
+NIK </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.5in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">2.
+Nama </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.5in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">3.
+Tempat &amp; Tanggal Lahir </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.5in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">4.
+Alamat email </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.5in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">5.
+Nomor telepon </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.5in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">6.
+Data Biometrik </font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.17in; margin-top: 0.12in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Ketika
+Pemilik mengajukan permohonan untuk mendapatkan Sertifikat Elektronik
+yang  diterbitkan oleh Enkripa, Pemilik diminta untuk memberikan Data
+Biometrik. Enkripa akan  mengenkripsi Data Biometrik Pemilik, serta
+menyimpannya ke dalam pusat data Enkripa.</font></font></font></p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.17in; margin-top: 0.12in; margin-bottom: 0in">
+<br/>
+
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>16.
+Tujuan Penggunaan Data Pribadi </b></font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.18in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+hanya akan menggunakan Data Pribadi Pemilik sesuai dengan tujuan
+perolehan, yang  akan Enkripa sampaikan terlebih dahulu kepada
+Pemilik, atau sesuai deskripsi di bawah ini.  Enkripa hanya akan
+menggunakan Data Pribadi untuk tujuan-tujuan terkait fungsi
+Sertifikat,  antara lain: </font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.18in; margin-top: 0.09in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Penerbitan
+	dan pemrosesan Sertifikat Elektronik, termasuk verifikasi identitas
+	Pemilik  sebagaimana dipersyaratkan oleh peraturan
+	perundang-undangan, dan menyelesaikan  transaksi terkait Sertifikat
+	Elektronik. Terkait dengan data biometrik, data akan digunakan 
+	khusus untuk verifikasi identitas pada saat penerbitan Sertifikat
+	Elektronik baru, otorisasi  transaksi atau Layanan lain dari Pihak
+	Pengandal, dan analitika lain yang terkait, misalnya  pencegahan
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>fraud.
+	</i></font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.19in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Validasi
+	kepada Pihak Pengandal bahwa suatu Sertifikat Elektronik sudah
+	mutakhir dan  akurat. Enkripa juga akan menggunakan detail kontak
+	Pemilik untuk mengirimkan pesan  elektronik kepada Pemilik terkait
+	produk baru, acara baru, atau perubahan atas Perjanjian  Pemilik,
+	termasuk Kebijakan Privasi ini. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.19in; margin-top: 0.05in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Data
+	yang dikumpulkan oleh Enkripa digunakan untuk mencegah dan
+	mendeteksi aktivitas  penipuan dan pelanggaran keamanan . </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.19in; margin-top: 0.05in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+	dapat memutuskan untuk tidak menerima informasi ini dengan
+	mengirimkan  permohonan ke info </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><u>support@enkripa.id</u></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+	dan hal ini tidak akan berpengaruh terhadap status  Sertifikat
+	Pemilik. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.19in; margin-top: 0.05in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dalam
+	hal Pemilik memberikan persetujuan kepada pihak ketiga untuk
+	menggunakan Akun  Enkripa untuk mengakses atau menggunakan Layanan
+	yang disediakan oleh pihak ketiga,  penggunaan data pribadi Pemilik
+	oleh pihak ketiga tersebut tunduk kepada syarat dan  ketentuan
+	dan/atau kebijakan privasi masing-masing pihak ketiga. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.18in; margin-top: 0.05in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pengungkapan
+	Data Pribadi tidak akan dilakukan selain untuk penggunaan
+	sebagaimana  tersebut di atas, Enkripa juga diwajibkan untuk
+	mengungkapkan Data Pribadi Pemilik  berdasarkan hukum, perintah
+	pengadilan, panggilan sidang, atau permintaan dari lembaga  negara
+	atau pemerintah sesuai peraturan perundang-undangan yang berlaku. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.18in; margin-top: 0.05in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Penggunaan
+	Data Biometrik ketika Pemilik menggunakan Layanan, Pemilik akan
+	memberikan  Data Biometrik melalui perangkat keras dan perangkat
+	lunak tertentu. Data Biometrik  tersebut akan dienkripsi dan akan
+	diberikan kepada Enkripa, dimana Enkripa akan  mencocokkan Data
+	Biometrik tersebut dengan informasi yang Enkripa sudah peroleh
+	ketika  Pemilik mendaftar. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.28in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>17.
+Keamanan Data Pribadi </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.12in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	mengambil langkah-langkah perlindungan dan penyimpanan data secara
+	cermat untuk  memastikan kerahasiaan Data Pribadi Pengguna tetap
+	terjaga secara konsisten setiap waktu. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.12in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Semua
+	dokumen yang diunggah atau dikirimkan oleh Pengguna melalui platform
+	Enkripa  terkait layanan yang disediakan akan dilindungi dengan
+	standar keamanan industri, sehingga  data tersimpan dan terkirim
+	dengan aman dan terjaga kerahasiaannya. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.12in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	akan memberitahu pemilik jika terjadi masalah. Jika terjadi
+	kebocoran data, Enkripa akan memberi tahu Pemilik sesuai dengan
+	peraturan yang berlaku</font></font></font></p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hanya
+	Pemilik yang bisa mengakses data Pemilik. Data Pemilik, termasuk
+	pesan dan dokumen, hanya bisa diakses oleh Pemilik dan orang yang
+	Pemilik beri izin.  </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.04in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+	mengadopsi standar keamanan tingkat tinggi, terbukti dengan
+	pencapaian sertifikasi  ISO 27001:2022 untuk Manajemen Keamanan
+	Informasi. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+	memiliki tanggung jawab penuh untuk menjaga kerahasiaan akun mereka,
+	seperti kata  sandi dan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>One-Time
+	Password </i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">(OTP)
+	yang dikirimkan oleh Enkripa, serta memastikan  keamanan perangkat
+	yang digunakan untuk mengakses layanan Enkripa. </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.27in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>18.
+Penyimpanan Data Pribadi </b></font></font></font>
+</p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+akan menyimpan Data Pribadi Pengguna selama diperlukan untuk
+keperluan pemrosesan  data sesuai dengan yang dijelaskan dalam
+Pemberitahuan Privasi ini, serta mematuhi ketentuan  hukum dan
+peraturan perundang-undangan yang berlaku. Sebagai bukti komitmen
+Enkripa dalam  menjaga kerahasiaan Data Pribadi Pemilik, Enkripa
+telah mendapatkan sertifikasi ISO 27001:2022  untuk Sistem Keamanan
+Manajemen Informasi. </font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.37in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>19.
+Hak Pemilik  </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Enkripa
+memberikan hak-hak kepada Pemilik terkait Data Pribadi mereka sesuai
+dengan rincian  sebagai berikut: </font></font></font>
+</p>
+<ol type="a">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.1in; margin-top: 0.04in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	untuk Mengakses Data Pribadi :  </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.3in; margin-right: 0.1in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+berhak untuk meminta salinan data pribadi yang Enkripa simpan. Hal
+ini  memungkinkan Pemilik untuk mengetahui informasi apa saja yang
+Enkripa miliki dan  bagaimana Enkripa menggunakannya. </font></font></font>
+</p>
+<ol type="a" start="2">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	untuk Memperbaiki Data Pribadi yang Tidak Akurat : </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.3in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Jika
+Pemilik menemukan data pribadi yang Enkripa simpan tentang Pemilik
+tidak akurat atau  tidak lengkap, Pemilik berhak meminta Enkripa
+untuk memperbaikinya. Enkripa akan  melakukan upaya terbaik untuk
+memperbaiki data yang tidak akurat dalam jangka waktu yang  telah
+ditentukan setelah menerima permintaan Pemilik. </font></font></font>
+</p>
+<ol type="a" start="3">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	untuk Menghapus Data Pribadi :  </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.3in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dalam
+kondisi tertentu, Pemilik berhak meminta Enkripa untuk menghapus data
+pribadi  Pemilik. Misalnya, jika data tersebut tidak lagi diperlukan
+untuk tujuan yang Enkripa kumpulkan  atau jika Pemilik menarik
+persetujuan Pemilik. Namun, perlu diketahui bahwa Enkripa mungkin 
+tidak dapat menghapus semua data Pemilik jika ada kewajiban hukum
+yang mengharuskan  Enkripa menyimpan data tersebut. </font></font></font>
+</p>
+<ol type="a" start="4">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	untuk Menolak Pemrosesan Data Pribadi :  </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.3in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+berhak untuk menolak pemrosesan data pribadi Pemilik dalam kondisi
+tertentu,  misalnya untuk tujuan pemasaran langsung. Jika Pemilik
+memilih untuk menolak, Enkripa akan  menghormati keputusan Pemilik. </font></font></font>
+</p>
+<ol type="a" start="5">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Hak
+	untuk Portabilitas Data : </font></font></font>
+	</p></li>
+</ol>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.3in; margin-top: 0.01in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+berhak untuk meminta salinan data pribadi Pemilik dalam format yang
+umum  digunakan dan terstruktur, sehingga Pemilik dapat memindahkan
+data tersebut ke penyedia  layanan lain. Hak ini memungkinkan Pemilik
+untuk memiliki kendali lebih besar atas data pribadi  Pemilik.</font></font></font></p>
+<p align="justify" style="line-height: 100%; orphans: 0; widows: 0; text-indent: 0.01in; margin-right: 0.03in; margin-top: 0.04in; margin-bottom: 0in">
+<br/>
+
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>20.
+Hukum yang Berlaku </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.04in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Ketentuan
+	Penggunaan ini diatur hukum Negara Republik Indonesia. </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.04in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Pemilik
+	dan Enkripa sepakat bahwa setiap sengketa atau perselisihan yang
+	timbul sehubungan  dengan Pemberitahuan Privasi ini, baik disebabkan
+	oleh tindakan melawan hukum maupun  pelanggaran terhadap satu atau
+	lebih ketentuan dalam dokumen ini, akan diselesaikan melalui 
+	langkah-langkah berikut: </font></font></font>
+	</p></li>
+</ol>
+<ol>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Salah
+	satu pihak, baik Pemilik maupun Enkripa </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>(“Pihak
+	Pertama”)</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">,
+	wajib menyampaikan  pemberitahuan tertulis kepada pihak lainnya
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>(“Pihak
+	Kedua”) </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">terkait
+	terjadinya sengketa  atau perselisihan tersebut </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>(“Pemberitahuan
+	Perselisihan”). </b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Kedua
+	belah pihak sepakat  untuk menyelesaikan sengketa tersebut melalui
+	musyawarah untuk mufakat dalam waktu  paling lama 30 (tiga puluh)
+	hari kalender sejak Pemberitahuan Perselisihan disampaikan </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>(“Periode
+	Penyelesaian Musyawarah”). </b></font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Jika
+	hingga berakhirnya Periode Penyelesaian Musyawarah sengketa tidak
+	dapat  diselesaikan secara damai, kedua pihak sepakat untuk membawa
+	sengketa tersebut ke  Badan Arbitrase Nasional Indonesia (BANI)
+	sesuai dengan peraturan dan prosedur yang  berlaku di BANI, yang
+	berlokasi di Wahana Graha, Lantai 1 dan 2, Jl. Mampang Prapatan  No.
+	2, Jakarta 12760. Penyelesaian melalui arbitrase ini tunduk pada
+	ketentuan berikut: </font></font></font>
+	</p>
+	<ol>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Bahasa
+		yang digunakan selama proses arbitrase adalah Bahasa Indonesia. </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Tempat
+		berlangsungnya arbitrase adalah di Jakarta, Indonesia. </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Kedua
+		belah pihak secara bersama-sama akan menunjuk satu (1) orang
+		arbiter yang  bertindak sebagai arbiter tunggal untuk menyelesaikan
+		perselisihan. </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Biaya
+		arbitrase dan biaya hukum akan dibebankan kepada pihak yang kalah. </font></font></font>
+		</p></li>
+		<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: 0.03in; margin-top: 0.01in; margin-bottom: 0in">
+		<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Putusan
+		yang dikeluarkan oleh arbiter bersifat final dan mengikat kedua
+		belah pihak. </font></font></font>
+		</p></li>
+	</ol>
+</ol>
+<p style="line-height: 100%; margin-bottom: 0in"><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>21.
+Perubahan Kebijakan </b></font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-left: 0.05in; margin-right: 0.1in; margin-top: 0.04in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Dari
+waktu ke waktu, Enkripa dapat mengubah Kebijakan Data Pribadi ini,
+yang akan berlaku efektif  pada saat dipublikasikan di situs
+</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><u>https://repository.Enkripa.id</u></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">
+</font></font></font>
+</p>
+<p style="line-height: 100%; orphans: 0; widows: 0; margin-top: 0.39in; margin-bottom: 0in">
+<font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>22.
+Kontak dan Pemberitahuan </b></font></font></font>
+</p>
+<ol type="a">
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.13in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	Pemberitahuan dari Kami yang ditujukan kepada Anda atau Pemilik akan
+	 diumumkan melalui Situs dan dikirimkan melalui surat elektronik
+	(</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>e-mail</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">)
+	atau  Layanan Pesan Pendek (</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>SMS</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">)
+	Pemilik yang terdaftar pada Akun </font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="3" style="font-size: 12pt"><b>ENKRIPA
+	</b></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">;
+	dan, </font></font></font>
+	</p></li>
+	<li><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-right: -0in; margin-top: 0.02in; margin-bottom: 0in">
+	<font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">Setiap
+	Pemberitahuan dari Anda atau Pemilik yang ditujukan kepada Kami
+	menjadi  efektif ketika pemberitahuan tersebut diterima oleh Kami
+	melalui alamat surat  elektronik (</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><i>e-mail
+	address</i></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">)
+	</font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt"><u>support@enkripa.id
+	</u></font></font></font><font color="#000000"><font face="Calibri, sans-serif"><font size="2" style="font-size: 10pt">dan/atau
+	melalui dokumen fisik yang  dikirimkan ke PT Enkripa Teknologi
+	Indonesia dengan alamat Jl. H. Nawi Raya No.  191/17, Kel. Gandaria
+	Utara Kec. Kebayoran Baru, Kota Jakarta Selatan 12140,  Indonesia</font></font></font></p></li>
+</ol>
+</body>
+</html>
 ''';

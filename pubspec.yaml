@@ -44,6 +44,7 @@ dependencies:
   flutter_widget_from_html: ^0.15.3
   slider_captcha: ^1.0.1
   loading_animation_widget: ^1.3.0
+  docx_to_text: ^1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -58,7 +59,7 @@ flutter:
   assets:
     - assets/icon/
     - assets/image/
-    - assets/pdf/testing.pdf
+    - assets/doc/testing.pdf
     - assets/ttd/ttd.png
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
